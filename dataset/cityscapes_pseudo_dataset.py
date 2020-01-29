@@ -9,7 +9,8 @@ import collections
 import torch
 import torchvision
 from torch.utils import data
-from PIL import Image
+from PIL import Image, ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 from dataset.autoaugment import ImageNetPolicy
 
 class cityscapes_pseudo_DataSet(data.Dataset):
