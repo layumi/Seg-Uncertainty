@@ -1,0 +1,10 @@
+*.pyc
+*.pth
+*.png
+*.jpg
+*.yaml
+
+log/
+data/
+result/
+snapshots/
