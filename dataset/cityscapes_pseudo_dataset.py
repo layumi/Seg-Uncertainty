@@ -9,9 +9,10 @@ import collections
 import torch
 import torchvision
 from torch.utils import data
-from PIL import Image, ImageFile
-ImageFile.LOAD_TRUNCATED_IMAGES = True
+from PIL import Image,ImageFile
 from dataset.autoaugment import ImageNetPolicy
+
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 class cityscapes_pseudo_DataSet(data.Dataset):
     def __init__(self, root, list_path, max_iters=None, resize_size=(1024, 512), crop_size=(512, 1024), mean=(128, 128, 128), scale=False, mirror=True, ignore_label=255, set='val', autoaug=False, synthia=False):
@@ -61,8 +62,14 @@ class cityscapes_pseudo_DataSet(data.Dataset):
         name = datafiles["name"]
 
         # resize
-        image = image.resize(self.resize_size, Image.BICUBIC)
-        label = label.resize(self.resize_size, Image.NEAREST)
+        if self.scale:
+            random_scale = 0.8 + random.random()*0.4 # 0.8 - 1.2
+            image = image.resize( ( round(self.resize_size[0] * random_scale), round(self.resize_size[1] * random_scale)) , Image.BICUBIC)
+            label = label.resize( ( round(self.resize_size[0] * random_scale), round(self.resize_size[1] * random_scale)) , Image.NEAREST)
+        else:
+            image = image.resize( ( self.resize_size[0], self.resize_size[1] ) , Image.BICUBIC)
+            label = label.resize( ( self.resize_size[0], self.resize_size[1] ) , Image.NEAREST)
+
         if self.autoaug:
             policy = ImageNetPolicy()
             image = policy(image)
@@ -80,10 +87,19 @@ class cityscapes_pseudo_DataSet(data.Dataset):
         image = image[:, :, ::-1]  # change to BGR
         image -= self.mean
         image = image.transpose((2, 0, 1))
-        x1 = random.randint(0, image.shape[1] - self.h)
-        y1 = random.randint(0, image.shape[2] - self.w)
-        image = image[:, x1:x1+self.h, y1:y1+self.w]
-        label_copy = label_copy[x1:x1+self.h, y1:y1+self.w]
+        print(image.shape, label.shape)
+        for i in range(10): #find hard samples
+            x1 = random.randint(0, image.shape[1] - self.h)
+            y1 = random.randint(0, image.shape[2] - self.w)
+            tmp_label_copy = label_copy[x1:x1+self.h, y1:y1+self.w]
+            tmp_image = image[:, x1:x1+self.h, y1:y1+self.w]
+            u =  np.unique(tmp_label_copy)
+            if len(u) > 10:
+                break
+            else:
+                print('Cityscape-Pseudo: Too young too naive for %d times!'%i)
+        image = tmp_image
+        label_copy = tmp_label_copy
 
         if self.is_mirror and random.random() < 0.5:
             image = np.flip(image, axis = 2)
