@@ -87,7 +87,7 @@ class cityscapes_pseudo_DataSet(data.Dataset):
         image = image[:, :, ::-1]  # change to BGR
         image -= self.mean
         image = image.transpose((2, 0, 1))
-        print(image.shape, label.shape)
+        #print(image.shape, label.shape)
         for i in range(10): #find hard samples
             x1 = random.randint(0, image.shape[1] - self.h)
             y1 = random.randint(0, image.shape[2] - self.w)
@@ -96,8 +96,8 @@ class cityscapes_pseudo_DataSet(data.Dataset):
             u =  np.unique(tmp_label_copy)
             if len(u) > 10:
                 break
-            else:
-                print('Cityscape-Pseudo: Too young too naive for %d times!'%i)
+            #else:
+                #print('Cityscape-Pseudo: Too young too naive for %d times!'%i)
         image = tmp_image
         label_copy = tmp_label_copy
 

@@ -17,7 +17,7 @@ import time
 import yaml
 from tensorboardX import SummaryWriter
 
-from trainer_ms import AD_Trainer
+from trainer_ms_variance import AD_Trainer
 from utils.loss import CrossEntropy2d
 from utils.tool import adjust_learning_rate, adjust_learning_rate_D, Timer 
 from dataset.robot_dataset import robotDataSet
