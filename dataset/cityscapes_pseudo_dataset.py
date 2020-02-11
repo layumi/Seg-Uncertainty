@@ -42,7 +42,7 @@ class cityscapes_pseudo_DataSet(data.Dataset):
 
         for name in self.img_ids:
             img_file = osp.join(self.root, "leftImg8bit/%s/%s" % (self.set, name))
-            label_file = osp.join(self.root, "pseudo/%s/%s" % (self.set, name ))
+            label_file = osp.join(self.root, "pseudo_FULL/%s/%s" % (self.set, name ))
             if synthia:
                 label_file = osp.join(self.root, "pseudo_SYNTHIA/%s/%s" % (self.set, name ))
             self.files.append({
