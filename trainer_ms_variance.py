@@ -173,13 +173,16 @@ class AD_Trainer(nn.Module):
             #labels_onehot = labels_onehot.cuda()
             #labels_onehot.scatter_(1, labels.view(n,1,h,w), 1)
 
-            variance = torch.mean(kl_distance(self.log_sm(pred1),self.sm(pred2)), dim=1) + 1e-6
+            variance = torch.sum(kl_distance(self.log_sm(pred1),self.sm(pred2)), dim=1) 
+            exp_variance = torch.exp(-variance)
             #variance = torch.log( 1 + (torch.mean((pred1-pred2)**2, dim=1)))
             #torch.mean( kl_distance(self.log_sm(pred1),pred2), dim=1) + 1e-6
             print(variance.shape)
-            print('variance mean: %.4f'%torch.mean(variance[:]))
-            loss = torch.mean(loss/variance) + torch.mean(variance)
-            print(loss)
+            print('variance mean: %.4f'%torch.mean(exp_variance[:]))
+            print('variance min: %.4f'%torch.min(exp_variance[:]))
+            print('variance max: %.4f'%torch.max(exp_variance[:]))
+            #loss = torch.mean(loss/variance) + torch.mean(variance)
+            loss = torch.mean(loss*exp_variance) + torch.mean(variance)
             return loss
 
     def gen_update(self, images, images_t, labels, labels_t, i_iter):
