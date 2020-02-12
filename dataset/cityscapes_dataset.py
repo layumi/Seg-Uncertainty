@@ -9,9 +9,11 @@ import collections
 import torch
 import torchvision
 from torch.utils import data
-from PIL import Image
+from PIL import Image, ImageFile
 from dataset.autoaugment import ImageNetPolicy
 import time
+
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 class cityscapesDataSet(data.Dataset):
     def __init__(self, root, list_path, max_iters=None, resize_size=(1024, 512), crop_size=(512, 1024), mean=(128, 128, 128), scale=True, mirror=True, ignore_label=255, set='val', autoaug=False):

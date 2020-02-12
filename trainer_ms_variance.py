@@ -173,7 +173,8 @@ class AD_Trainer(nn.Module):
             #labels_onehot = labels_onehot.cuda()
             #labels_onehot.scatter_(1, labels.view(n,1,h,w), 1)
 
-            variance = torch.mean( (pred1-pred2)**2, dim=1)+1e-6
+            variance = torch.mean(kl_distance(self.log_sm(pred1),self.sm(pred2)), dim=1) + 1e-6
+            #variance = torch.log( 1 + (torch.mean((pred1-pred2)**2, dim=1)))
             #torch.mean( kl_distance(self.log_sm(pred1),pred2), dim=1) + 1e-6
             print(variance.shape)
             print('variance mean: %.4f'%torch.mean(variance[:]))
