@@ -109,7 +109,7 @@ class cityscapes_pseudo_DataSet(data.Dataset):
 
 
 if __name__ == '__main__':
-    dst = cityscapesDataSet('./data/Cityscapes/data', './dataset/cityscapes_list/train.txt', mean=(0,0,0), set = 'train')
+    dst = cityscapes_pseudo_DataSet('./data/Cityscapes/data', './dataset/cityscapes_list/train.txt', mean=(0,0,0), set = 'train')
     trainloader = data.DataLoader(dst, batch_size=4)
     for i, data in enumerate(trainloader):
         imgs, _, _ = data
