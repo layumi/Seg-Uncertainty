@@ -191,7 +191,7 @@ def main():
         output_batch = output_batch.transpose(0,2,3,1)
         score_batch = np.max(output_batch, axis=3)
         output_batch = np.asarray(np.argmax(output_batch, axis=3), dtype=np.uint8)
-        output_batch[score_batch<3.6] = 255  #3.6 = 4*0.9
+        #output_batch[score_batch<3.6] = 255  #3.6 = 4*0.9
 
         for i in range(output_batch.shape[0]):
             output = output_batch[i,:,:]

@@ -181,25 +181,25 @@ def main():
         if args.model == 'DeepLab':
             with torch.no_grad():
                 output1, output2 = model(inputs)
-                #output_batch = interp(sm(0.5* output1 + output2))
+                output_batch = interp(sm(0.5* output1 + output2))
                 #output_batch = interp(sm(output1))
-                output_batch = interp(sm(output2))
+                #output_batch = interp(sm(output2))
                 output1, output2 = model(fliplr(inputs))
                 output1, output2 = fliplr(output1), fliplr(output2)
-                #output_batch += interp(sm(0.5 * output1 + output2))
+                output_batch += interp(sm(0.5 * output1 + output2))
                 #output_batch += interp(sm(output1))
-                output_batch += interp(sm(output2))
+                #output_batch += interp(sm(output2))
                 del output1, output2, inputs
 
                 output1, output2 = model(inputs2)
-                #output_batch += interp(sm(0.5* output1 + output2))
+                output_batch += interp(sm(0.5* output1 + output2))
                 #output_batch += interp(sm(output1))
-                output_batch += interp(sm(output2))
+                #output_batch += interp(sm(output2))
                 output1, output2 = model(fliplr(inputs2))
                 output1, output2 = fliplr(output1), fliplr(output2)
-                #output_batch += interp(sm(0.5 * output1 + output2))
+                output_batch += interp(sm(0.5 * output1 + output2))
                 #output_batch += interp(sm(output1))
-                output_batch += interp(sm(output2))
+                #output_batch += interp(sm(output2))
                 del output1, output2, inputs2
                 output_batch = output_batch.cpu().data.numpy()
 

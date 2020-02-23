@@ -48,7 +48,7 @@ class robot_pseudo_DataSet(data.Dataset):
             if set == 'val':
                 label_file = osp.join(self.root, "anno/%s" %name )
             else:
-                label_file = osp.join(self.root, "pseudo_train/%s" %name )
+                label_file = osp.join(self.root, "pseudo_train_0.9/%s" %name )
             self.files.append({
                 "img": img_file,
                 "label": label_file,
@@ -115,7 +115,7 @@ class robot_pseudo_DataSet(data.Dataset):
 
 
 if __name__ == '__main__':
-    dst = robot_pseudo_DataSet('./data/Oxford_Robot_ICCV19', './dataset/robot_list/train.txt', mean=(0,0,0), set = 'train')
+    dst = robot_pseudo_DataSet('./data/Oxford_Robot_ICCV19', './dataset/robot_list/train.txt', mean=(0,0,0), set = 'train', autoaug=True)
     trainloader = data.DataLoader(dst, batch_size=4)
     for i, data in enumerate(trainloader):
         imgs, _, _, _ = data
