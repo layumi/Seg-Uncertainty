@@ -53,6 +53,7 @@ RESTORE_FROM = 'http://vllab.ucmerced.edu/ytsai/CVPR18/DeepLab_resnet_pretrained
 SAVE_NUM_IMAGES = 2
 SAVE_PRED_EVERY = 5000
 SNAPSHOT_DIR = './snapshots/'
+THRESHOLD = 1.0
 WEIGHT_DECAY = 0.0005
 WARM_UP = 0 # no warmup
 LOG_DIR = './log'
@@ -157,6 +158,7 @@ def get_arguments():
     parser.add_argument("--weight-decay", type=float, default=WEIGHT_DECAY,
                         help="Regularisation parameter for L2-loss.")
     parser.add_argument("--warm-up", type=float, default=WARM_UP, help = 'warm up iteration')
+    parser.add_argument("--threshold", type=float, default=THRESHOLD, help = 'warm up iteration')
     parser.add_argument("--cpu", action='store_true', help="choose to use cpu device.")
     parser.add_argument("--class-balance", action='store_true', help="class balance.")
     parser.add_argument("--use-se", action='store_true', help="use se block.")
@@ -225,7 +227,7 @@ def main():
                     resize_size=args.input_size,
                     crop_size=args.crop_size,
                     scale=True, mirror=True, mean=IMG_MEAN, 
-                    set='train', autoaug = args.autoaug),
+                    set='train', autoaug = args.autoaug, threshold = args.threshold),
         batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers, pin_memory=True, drop_last=True)
 
     trainloader_iter = enumerate(trainloader)
