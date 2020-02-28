@@ -89,6 +89,14 @@ def get_arguments():
                         help="Path to save result.")
     return parser.parse_args()
 
+def save_heatmap(output_name):
+    output, name = output_name
+    fig = plt.figure()
+    plt.axis('off')
+    heatmap = plt.imshow(output, cmap='viridis')
+    fig.colorbar(heatmap)
+    fig.savefig('%s_heatmap.png' % (name.split('.jpg')[0]))
+    return
 
 def main():
     """Create the model and start the evaluation process."""
@@ -149,6 +157,9 @@ def main():
         interp = nn.Upsample(size=(1024, 2048), mode='bilinear')
 
     sm = torch.nn.Softmax(dim = 1)
+    log_sm = torch.nn.LogSoftmax(dim = 1)
+    kl_distance = nn.KLDivLoss( reduction = 'none')
+
     for index, img_data in enumerate(zip(testloader, testloader2) ):
         batch, batch2 = img_data
         image, _, _, name = batch
@@ -162,6 +173,9 @@ def main():
             with torch.no_grad():
                 output1, output2 = model(inputs)
                 output_batch = interp(sm(0.5* output1 + output2))
+
+                heatmap_batch = torch.sum(kl_distance(log_sm(output1), sm(output2)), dim=1)
+
                 output1, output2 = model(fliplr(inputs))
                 output1, output2 = fliplr(output1), fliplr(output2)
                 output_batch += interp(sm(0.5 * output1 + output2))
@@ -174,6 +188,7 @@ def main():
                 output_batch += interp(sm(0.5 * output1 + output2))
                 del output1, output2, inputs2
                 output_batch = output_batch.cpu().data.numpy()
+                heatmap_batch = heatmap_batch.cpu().data.numpy()
         elif args.model == 'DeeplabVGG' or args.model == 'Oracle':
             output_batch = model(Variable(image).cuda())
             output_batch = interp(output_batch).cpu().data.numpy()
@@ -183,8 +198,7 @@ def main():
         output_batch = output_batch.transpose(0,2,3,1)
         score_batch = np.max(output_batch, axis=3)
         output_batch = np.asarray(np.argmax(output_batch, axis=3), dtype=np.uint8)
-        output_batch[score_batch<3.2] = 255  #3.2 = 4*0.8
-
+        #output_batch[score_batch<3.2] = 255  #3.2 = 4*0.8
         for i in range(output_batch.shape[0]):
             output = output_batch[i,:,:]
             output_col = colorize_mask(output)
@@ -201,6 +215,13 @@ def main():
             print('%s/%s' % (save_path, name_tmp))
             output_col.save('%s/%s_color.png' % (save_path, name_tmp.split('.')[0]))
 
+            heatmap_tmp = heatmap_batch[i,:,:]/np.max(heatmap_batch[i,:,:])
+            fig = plt.figure()
+            plt.axis('off')
+            heatmap = plt.imshow(heatmap_tmp, cmap='viridis')
+            fig.colorbar(heatmap)
+            fig.savefig('%s/%s_heatmap.png' % (save_path, name_tmp.split('.')[0]))
+            
     return args.save
 
 if __name__ == '__main__':

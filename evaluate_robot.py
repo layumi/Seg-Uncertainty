@@ -144,7 +144,7 @@ def main():
     except:
         model = torch.nn.DataParallel(model)
         model.load_state_dict(saved_state_dict)
-    model = torch.nn.DataParallel(model)
+    #model = torch.nn.DataParallel(model)
     model.eval()
     model.cuda(gpu0)
 
@@ -154,7 +154,7 @@ def main():
     testloader = data.DataLoader(robotDataSet(args.data_dir, args.data_list, crop_size=(th, tw), resize_size=(tw, th), mean=IMG_MEAN, scale=False, mirror=False, set=args.set),
                                     batch_size=batchsize, shuffle=False, pin_memory=True, num_workers=4)
 
-    scale = 1.25
+    scale = 0.8
     testloader2 = data.DataLoader(robotDataSet(args.data_dir, args.data_list, crop_size=(round(th*scale), round(tw*scale) ), resize_size=( round(tw*scale), round(th*scale)), mean=IMG_MEAN, scale=False, mirror=False, set=args.set),
                                     batch_size=batchsize, shuffle=False, pin_memory=True, num_workers=4)
     scale = 0.9
@@ -172,11 +172,11 @@ def main():
         batch, batch2, batch3 = img_data
         image, _, _, name = batch
         image2, _, _, name2 = batch2
-        #image3, _, _, name3 = batch3
+        image3, _, _, name3 = batch3
 
         inputs = image.cuda()
         inputs2 = image2.cuda()
-        #inputs3 = Variable(image3).cuda()
+        inputs3 = Variable(image3).cuda()
         print('\r>>>>Extracting feature...%03d/%03d'%(index*batchsize, NUM_STEPS), end='')
         if args.model == 'DeepLab':
             with torch.no_grad():
@@ -201,14 +201,15 @@ def main():
                 #output_batch += interp(sm(output1))
                 #output_batch += interp(sm(output2))
                 del output1, output2, inputs2
-                output_batch = output_batch.cpu().data.numpy()
 
                 #output1, output2 = model(inputs3)
-                #output_batch += interp(sm(0.5* output1 + output2)).cpu().data.numpy()
+                #output_batch += interp(sm(0.5* output1 + output2))
                 #output1, output2 = model(fliplr(inputs3))
                 #output1, output2 = fliplr(output1), fliplr(output2)
-                #output_batch += interp(sm(0.5 * output1 + output2)).cpu().data.numpy()
+                #output_batch += interp(sm(0.5 * output1 + output2))
                 #del output1, output2, inputs3
+
+                output_batch = output_batch.cpu().data.numpy()
         elif args.model == 'DeeplabVGG' or args.model == 'Oracle':
             output_batch = model(Variable(image).cuda())
             output_batch = interp(output_batch).cpu().data.numpy()

@@ -94,6 +94,14 @@ def save(output_name):
     output_col.save('%s_color.png' % (name.split('.jpg')[0]))
     return
 
+def save_heatmap(output_name):
+    output, name = output_name
+    fig = plt.figure()
+    plt.axis('off')
+    heatmap = plt.imshow(output, cmap='viridis')
+    fig.colorbar(heatmap)
+    fig.savefig('%s_heatmap.png' % (name.split('.jpg')[0]))
+    return
 
 def main():
     """Create the model and start the evaluation process."""
@@ -157,6 +165,9 @@ def main():
         interp = nn.Upsample(size=(1024, 2048), mode='bilinear')
 
     sm = torch.nn.Softmax(dim = 1)
+    log_sm = torch.nn.LogSoftmax(dim = 1)
+    kl_distance = nn.KLDivLoss( reduction = 'none')
+
     for index, img_data in enumerate(zip(testloader, testloader2, testloader3) ):
         batch, batch2, batch3 = img_data
         image, _, _, name = batch
@@ -171,11 +182,13 @@ def main():
             with torch.no_grad():
                 output1, output2 = model(inputs)
                 output_batch = interp(sm(0.5* output1 + output2))
+                heatmap_output1, heatmap_output2 = output1, output2
                 #output_batch = interp(sm(output1))
                 #output_batch = interp(sm(output2))
                 output1, output2 = model(fliplr(inputs))
                 output1, output2 = fliplr(output1), fliplr(output2)
                 output_batch += interp(sm(0.5 * output1 + output2))
+                heatmap_output1, heatmap_output2 = heatmap_output1+output1, heatmap_output2+output2
                 #output_batch += interp(sm(output1))
                 #output_batch += interp(sm(output2))
                 del output1, output2, inputs
@@ -191,6 +204,9 @@ def main():
                 #output_batch += interp(sm(output2))
                 del output1, output2, inputs2
                 output_batch = output_batch.cpu().data.numpy()
+                heatmap_batch = torch.sum(kl_distance(log_sm(heatmap_output1), sm(heatmap_output2)), dim=1) 
+                heatmap_batch = torch.log(1 + 10*heatmap_batch) # for visualization
+                heatmap_batch = heatmap_batch.cpu().data.numpy()
 
                 #output1, output2 = model(inputs3)
                 #output_batch += interp(sm(0.5* output1 + output2)).cpu().data.numpy()
@@ -205,12 +221,15 @@ def main():
         output_batch = output_batch.transpose(0,2,3,1)
         output_batch = np.asarray(np.argmax(output_batch, axis=3), dtype=np.uint8)
         output_iterator = []
+        heatmap_iterator = []
         for i in range(output_batch.shape[0]):
             output_iterator.append(output_batch[i,:,:])
+            heatmap_iterator.append(heatmap_batch[i,:,:]/np.max(heatmap_batch[i,:,:]))
             name_tmp = name[i].split('/')[-1]
             name[i] = '%s/%s' % (args.save, name_tmp)
         with Pool(4) as p:
             p.map(save, zip(output_iterator, name) )
+            p.map(save_heatmap, zip(heatmap_iterator, name) )
         del output_batch
 
     
