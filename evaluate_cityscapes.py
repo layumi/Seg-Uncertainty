@@ -103,6 +103,15 @@ def save_heatmap(output_name):
     fig.savefig('%s_heatmap.png' % (name.split('.jpg')[0]))
     return
 
+def save_scoremap(output_name):
+    output, name = output_name
+    fig = plt.figure()
+    plt.axis('off')
+    heatmap = plt.imshow(output, cmap='viridis')
+    fig.colorbar(heatmap)
+    fig.savefig('%s_scoremap.png' % (name.split('.jpg')[0]))
+    return
+
 def main():
     """Create the model and start the evaluation process."""
     args = get_arguments()
@@ -219,17 +228,23 @@ def main():
             output_batch = interp(output_batch).cpu().data.numpy()
 
         output_batch = output_batch.transpose(0,2,3,1)
+        score_batch = np.asarray(np.max(output_batch, axis=3))
         output_batch = np.asarray(np.argmax(output_batch, axis=3), dtype=np.uint8)
         output_iterator = []
         heatmap_iterator = []
+        scoremap_iterator = []
+
         for i in range(output_batch.shape[0]):
             output_iterator.append(output_batch[i,:,:])
             heatmap_iterator.append(heatmap_batch[i,:,:]/np.max(heatmap_batch[i,:,:]))
+            scoremap_iterator.append(scoremap_batch[i,:,:]/np.max(scoremap_batch[i,:,:]))
             name_tmp = name[i].split('/')[-1]
             name[i] = '%s/%s' % (args.save, name_tmp)
         with Pool(4) as p:
             p.map(save, zip(output_iterator, name) )
             p.map(save_heatmap, zip(heatmap_iterator, name) )
+            p.map(save_scoremap, zip(scoremap_iterator, name) )
+
         del output_batch
 
     
