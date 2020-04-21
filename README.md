@@ -1,14 +1,17 @@
 ### Seg_Uncertainty
 
+![](https://github.com/layumi/Seg_Uncertainty/blob/master/Visual.jpg)
+
 In this repo, we provide the code for the two papers, i.e., 
 
-- [Unsupervised Scene Adaptation with Memory Regularization in vivo](https://arxiv.org/pdf/1912.11164.pdf), IJCAI (2020)
+- MRNet：[Unsupervised Scene Adaptation with Memory Regularization in vivo](https://arxiv.org/pdf/1912.11164.pdf), IJCAI (2020)
 
-- [Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation](https://arxiv.org/pdf/2003.03773.pdf), arXiv (2020)
+- MRNet+Rectifying: [Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation](https://arxiv.org/pdf/2003.03773.pdf), arXiv (2020)
 
 
 ### Prepare Data
-Download [GTA5] and [Cityscapes].
+Download [GTA5] and [Cityscapes] to run the basic code.
+Alternatively, you could download extra two datasets from [SYNTHIA] and [OxfordRobotCar].
 
 ### Training 
 Stage-I:
@@ -39,5 +42,5 @@ I will provide the link soon.
 Core code is relatively simple, and could be directly applied to other works. 
 - Memory in vivo:  https://github.com/layumi/Seg_Uncertainty/blob/master/trainer_ms.py#L232
 
-- Recitfy Pseudo label:  https://github.com/layumi/Seg_Uncertainty/blob/master/trainer_ms_variance.py#L166
+- Recitfying Pseudo label:  https://github.com/layumi/Seg_Uncertainty/blob/master/trainer_ms_variance.py#L166
 
