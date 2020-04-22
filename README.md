@@ -24,7 +24,7 @@ Alternatively, you could download extra two datasets from [SYNTHIA] and [OxfordR
 
 - Download [The Cityscapes Dataset]( https://www.cityscapes-dataset.com/ )
 
-- Download [The imagenet pretraind model]( https://drive.google.com/open?id=13kjtX481LdtgJcpqD3oROabZyhGLSBm2 )
+- Download [The Oxford RobotCar Dataset]( http://www.nec-labs.com/~mas/adapt-seg/adapt-seg.html )
 
 The data folder is structured as follows:
 ```
