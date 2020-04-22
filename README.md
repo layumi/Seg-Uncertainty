@@ -8,10 +8,44 @@ In this repo, we provide the code for the two papers, i.e.,
 
 - MRNet+Rectifying: [Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation](https://arxiv.org/pdf/2003.03773.pdf), arXiv (2020)
 
+### Prerequisites
+- Python 3.6
+- GPU Memory >= 11G (e.g., GTX2080Ti or GTX1080Ti)
+- Pytorch 
+
 
 ### Prepare Data
 Download [GTA5] and [Cityscapes] to run the basic code.
 Alternatively, you could download extra two datasets from [SYNTHIA] and [OxfordRobotCar].
+
+- Download [The GTA5 Dataset]( https://download.visinf.tu-darmstadt.de/data/from_games/ )
+
+- Download [The SYNTHIA Dataset]( http://synthia-dataset.net/download-2/ )
+
+- Download [The Cityscapes Dataset]( https://www.cityscapes-dataset.com/ )
+
+- Download [The imagenet pretraind model]( https://drive.google.com/open?id=13kjtX481LdtgJcpqD3oROabZyhGLSBm2 )
+
+The data folder is structured as follows:
+```
+├── data/
+│   ├── Cityscapes/  
+|   |   ├── data/
+|   |       ├── gtFine/
+|   |       ├── leftImg8bit/
+│   ├── GTA5/
+|   |   ├── images/
+|   |   ├── labels/
+|   |   ├── ...
+│   ├── synthia/ 
+|   |   ├── RGB/
+|   |   ├── GT/
+|   |   ├── Depth/
+|   |   ├── ...
+│   └── Oxford_Robot_ICCV19
+|   |   ├── train/
+|   |   ├── ...
+```
 
 ### Training 
 Stage-I:
