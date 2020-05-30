@@ -80,3 +80,9 @@ Core code is relatively simple, and could be directly applied to other works.
 
 - Recitfying Pseudo label:  https://github.com/layumi/Seg_Uncertainty/blob/master/trainer_ms_variance.py#L166
 
+### Related Works
+We also would like to thank great works as follows:
+- https://github.com/wasidennis/AdaptSegNet
+- https://github.com/RoyalVane/CLAN
+- https://github.com/yzou2/CBST
+
