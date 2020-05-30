@@ -72,7 +72,7 @@ python evaluate_cityscapes.py --restore-from ./snapshots/1280x640_restore_ft_GN_
 ```
 
 ### Trained Model
-The trained model is available at https://drive.google.com/open?id=1Vmu61KSwHwCH6ZmbfvjnbyLuwyYjQWeP 
+The trained model is available at https://drive.google.com/file/d/1smh1sbOutJwhrfK8dk-tNvonc0HLaSsw/view?usp=sharing
 
 ### The Key Code
 Core code is relatively simple, and could be directly applied to other works. 
