@@ -22,7 +22,7 @@ Alternatively, you could download extra two datasets from [SYNTHIA] and [OxfordR
 
 - Download [The GTA5 Dataset]( https://download.visinf.tu-darmstadt.de/data/from_games/ )
 
-- Download [The SYNTHIA Dataset]( http://synthia-dataset.net/download-2/ )
+- Download [The SYNTHIA Dataset]( http://synthia-dataset.net/download/808/)  SYNTHIA-RAND-CITYSCAPES (CVPR16)
 
 - Download [The Cityscapes Dataset]( https://www.cityscapes-dataset.com/ )
 
