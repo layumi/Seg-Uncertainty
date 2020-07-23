@@ -84,5 +84,5 @@ Core code is relatively simple, and could be directly applied to other works.
 We also would like to thank great works as follows:
 - https://github.com/wasidennis/AdaptSegNet
 - https://github.com/RoyalVane/CLAN
-- https://github.com/yzou2/CBST
+- https://github.com/yzou2/CRST
 
