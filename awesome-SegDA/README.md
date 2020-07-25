@@ -10,6 +10,7 @@
 - FCNs in the Wild: Pixel-level Adversarial and Constraint-based Adaptation [[8 Dec 2016]](https://arxiv.org/abs/1612.02649)
 
 **Conference**
+- Differential Treatment for Stuff and Things: A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation [[ECCV 2020]](https://arxiv.org/pdf/2003.08040.pdf) [[Code]](https://github.com/SHI-Labs/Unsupervised-Domain-Adaptation-with-Differential-Treatment)
 - Contextual-Relation Consistent Domain Adaptation for Semantic Segmentation[[ECCV 2020]](https://arxiv.org/pdf/2007.02424.pdf)
 - Unsupervised Scene Adaptation with Memory Regularization in vivo [[IJCAI 2020]](https://arxiv.org/abs/1912.11164) [[code]](https://github.com/layumi/Seg-Uncertainty)
 - An Adversarial Perturbation Oriented Domain Adaptation Approach for Semantic Segmentation [[AAAI2020]](https://arxiv.org/abs/1912.08954v1)
