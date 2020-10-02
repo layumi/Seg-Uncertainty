@@ -1,5 +1,7 @@
 ## Awesome Segmentation Domain Adaptation
 
+PRs are welcome!
+
 **Arxiv**
 - Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation 
 [[8 Mar 2020]](https://arxiv.org/abs/2003.03773)
