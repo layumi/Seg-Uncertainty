@@ -86,3 +86,19 @@ We also would like to thank great works as follows:
 - https://github.com/RoyalVane/CLAN
 - https://github.com/yzou2/CRST
 
+### Citation
+```bibtex
+@inproceedings{zheng2019unsupervised,
+  title={Unsupervised Scene Adaptation with Memory Regularization in vivo},
+  author={Zheng, Zhedong and Yang, Yi},
+  booktitle={IJCAI},
+  year={2020}
+}
+@article{zheng2020unsupervised,
+  title={Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation },
+  author={Zheng, Zhedong and Yang, Yi},
+  journal={IJCV},
+  year={2020}
+}
+```
+
