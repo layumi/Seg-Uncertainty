@@ -98,7 +98,7 @@ We also would like to thank great works as follows:
   title={Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation },
   author={Zheng, Zhedong and Yang, Yi},
   journal={International Journal of Computer Vision (IJCV)},
-  doi={10.1007/s11263-020-01395-y}
+  doi={10.1007/s11263-020-01395-y},
   year={2020}
 }
 ```
