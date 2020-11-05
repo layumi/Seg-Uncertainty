@@ -74,6 +74,11 @@ python evaluate_cityscapes.py --restore-from ./snapshots/1280x640_restore_ft_GN_
 ### Trained Model
 The trained model is available at https://drive.google.com/file/d/1smh1sbOutJwhrfK8dk-tNvonc0HLaSsw/view?usp=sharing
 
+### One Note for SYNTHIA-to-Cityscapes
+Note that the evaluation code I provided for SYNTHIA-to-Cityscapes is still average the IoU by divide 19.
+Actually, you need to re-calculate the value by divide 16. There are only 16 shared classes for SYNTHIA-to-Cityscapes. 
+In this way, the result is same as the value reported in paper.
+
 ### The Key Code
 Core code is relatively simple, and could be directly applied to other works. 
 - Memory in vivo:  https://github.com/layumi/Seg_Uncertainty/blob/master/trainer_ms.py#L232
