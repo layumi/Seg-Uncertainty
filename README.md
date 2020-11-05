@@ -74,6 +74,9 @@ python evaluate_cityscapes.py --restore-from ./snapshots/1280x640_restore_ft_GN_
 ### Trained Model
 The trained model is available at https://drive.google.com/file/d/1smh1sbOutJwhrfK8dk-tNvonc0HLaSsw/view?usp=sharing
 
+- The folder with `SY` in name is for SYNTHIA-to-Cityscapes
+- The folder with `RB` in name is for Cityscapes-to-Robot Car
+
 ### One Note for SYNTHIA-to-Cityscapes
 Note that the evaluation code I provided for SYNTHIA-to-Cityscapes is still average the IoU by divide 19.
 Actually, you need to re-calculate the value by divide 16. There are only 16 shared classes for SYNTHIA-to-Cityscapes. 
