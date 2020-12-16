@@ -16,6 +16,7 @@ PRs are welcome!
 - Weakly Supervised Adversarial Domain Adaptation for Semantic Segmentation in Urban Scenes [[TIP 2019]](https://arxiv.org/abs/1904.09092v1)
 
 **Conference**
+- Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation [[NeurIPS 2020]](https://proceedings.neurips.cc/paper/2020/hash/ed265bc903a5a097f61d3ec064d96d2e-Abstract.html)[[Pytorch]](https://github.com/RoyalVane/ASM)
 - Differential Treatment for Stuff and Things: A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation [[ECCV 2020]](https://arxiv.org/pdf/2003.08040.pdf) [[Code]](https://github.com/SHI-Labs/Unsupervised-Domain-Adaptation-with-Differential-Treatment)
 - Contextual-Relation Consistent Domain Adaptation for Semantic Segmentation[[ECCV 2020]](https://arxiv.org/pdf/2007.02424.pdf)
 - Unsupervised Scene Adaptation with Memory Regularization in vivo [[IJCAI 2020]](https://arxiv.org/abs/1912.11164) [[code]](https://github.com/layumi/Seg-Uncertainty)
