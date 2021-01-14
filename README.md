@@ -13,7 +13,7 @@ In this repo, we provide the code for the two papers, i.e.,
 ### Prerequisites
 - Python 3.6
 - GPU Memory >= 11G (e.g., GTX2080Ti or GTX1080Ti)
-- Pytorch 
+- Pytorch or [Paddlepaddle](https://www.paddlepaddle.org.cn/)
 
 
 ### Prepare Data
