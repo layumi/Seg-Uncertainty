@@ -3,6 +3,7 @@
 PRs are welcome!
 
 **Arxiv**
+- Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation [[26 Jan 2021]](https://arxiv.org/abs/2101.10979)
 - Class-Conditional Domain Adaptation on Semantic Segmentation [[27 Nov 2019]](https://arxiv.org/abs/1911.11981v1)
 - Domain Bridge for Unpaired Image-to-Image Translation and Unsupervised Domain Adaptation [[23 Oct 2019]](https://arxiv.org/abs/1910.10563)
 - Restyling Data: Application to Unsupervised Domain Adaptation [[24 Sep 2019]](https://arxiv.org/abs/1909.10900)
@@ -16,11 +17,11 @@ PRs are welcome!
 - Weakly Supervised Adversarial Domain Adaptation for Semantic Segmentation in Urban Scenes [[TIP 2019]](https://arxiv.org/abs/1904.09092v1)
 
 **Conference**
+- Unsupervised Scene Adaptation with Memory Regularization in vivo [[IJCAI 2020]](https://arxiv.org/abs/1912.11164) [[code]](https://github.com/layumi/Seg-Uncertainty)
 - Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation [[NeurIPS 2020]](https://proceedings.neurips.cc/paper/2020/hash/ed265bc903a5a097f61d3ec064d96d2e-Abstract.html)[[Pytorch]](https://github.com/RoyalVane/ASM)
 - Content-Consistent Matching for Domain Adaptive Semantic Segmentation [[ECCV 2020]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590426.pdf) [[Code]](https://github.com/Solacex/CCM) 
 - Differential Treatment for Stuff and Things: A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation [[ECCV 2020]](https://arxiv.org/pdf/2003.08040.pdf) [[Code]](https://github.com/SHI-Labs/Unsupervised-Domain-Adaptation-with-Differential-Treatment)
 - Contextual-Relation Consistent Domain Adaptation for Semantic Segmentation[[ECCV 2020]](https://arxiv.org/pdf/2007.02424.pdf)
-- Unsupervised Scene Adaptation with Memory Regularization in vivo [[IJCAI 2020]](https://arxiv.org/abs/1912.11164) [[code]](https://github.com/layumi/Seg-Uncertainty)
 - An Adversarial Perturbation Oriented Domain Adaptation Approach for Semantic Segmentation [[AAAI2020]](https://arxiv.org/abs/1912.08954v1)
 - Category Anchor-Guided Unsupervised Domain Adaptation for Semantic Segmentation [[NeurIPS2019]](https://arxiv.org/abs/1910.13049)) [[code]](https://github.com/RogerZhangzz/CAG_UDA)
 - MLSL: Multi-Level Self-Supervised Learning for Domain Adaptation with Spatially Independent and Semantically Consistent Labeling [[WACV2020]](https://arxiv.org/abs/1909.13776)
