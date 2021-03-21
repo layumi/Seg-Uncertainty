@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/LICENSE</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/issues</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pulls</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/actions</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/projects</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/security</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/find/master</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/3b8ae83c943508891808c53642ff05e2e08c04fd</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/.gitignore</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/README.md</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/compute_iou.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/convert_robot_color.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/evaluate_cityscapes.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/evaluate_gta5.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/evaluate_robot.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/generate_plabel_cityscapes.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/generate_plabel_cityscapes_SYNTHIA.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/generate_plabel_robot.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/test.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/train_ft.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/train_ft_robot.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/train_ft_synthia.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/train_ms.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/train_ms_robot.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/train_ms_synthia.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/trainer_ms.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/trainer_ms_variance.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/try_run.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/master/visualize_noisy_label.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/LICENSE</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/issues/18</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/issues/16</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/issues/15</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/issues/13</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/issues/10</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/issues/9</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/compare</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/security/policy</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/security/advisories</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/0a643e37052a7147961a16dec6f2c59d8c7d9ec7</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/3b8ae83c943508891808c53642ff05e2e08c04fd?branch=3b8ae83c943508891808c53642ff05e2e08c04fd&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/3b8ae83c943508891808c53642ff05e2e08c04fd?branch=3b8ae83c943508891808c53642ff05e2e08c04fd&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/.gitignore</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/README.md</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/compute_iou.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/convert_robot_color.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/evaluate_cityscapes.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/evaluate_gta5.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/evaluate_robot.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/generate_plabel_cityscapes.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/generate_plabel_cityscapes_SYNTHIA.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/generate_plabel_robot.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/test.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/train_ft.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/train_ft_robot.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/train_ft_synthia.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/train_ms.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/train_ms_robot.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/train_ms_synthia.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/trainer_ms.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/trainer_ms_variance.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/try_run.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/blob/3b8ae83c943508891808c53642ff05e2e08c04fd/visualize_noisy_label.py</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/find/3b8ae83c943508891808c53642ff05e2e08c04fd</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels?sort=name-asc</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels?sort=name-desc</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels?sort=count-desc</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels?sort=count-asc</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels/bug</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels/documentation</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels/duplicate</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels/enhancement</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels/good%20first%20issue</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels/help%20wanted</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels/invalid</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels/question</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/labels/wontfix</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?state=open</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?state=closed</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/security/advisories?state=published</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/46b864709494657dd9c13939f740b07a01309e0b</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/0a643e37052a7147961a16dec6f2c59d8c7d9ec7?branch=0a643e37052a7147961a16dec6f2c59d8c7d9ec7&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/0a643e37052a7147961a16dec6f2c59d8c7d9ec7?branch=0a643e37052a7147961a16dec6f2c59d8c7d9ec7&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/58204352bfeb11ebfe5c78088353e71f29ddf9da</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pull/17</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/71453022de6547410fcbbc50954ebd1c90f11a8c</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/f46597cd193592dbfad2be01cf5685ff0eb70f80</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/46b864709494657dd9c13939f740b07a01309e0b?branch=46b864709494657dd9c13939f740b07a01309e0b&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/46b864709494657dd9c13939f740b07a01309e0b?branch=46b864709494657dd9c13939f740b07a01309e0b&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/32121d396175aba394465a3cb08e61c9c90f9491</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/58204352bfeb11ebfe5c78088353e71f29ddf9da?branch=58204352bfeb11ebfe5c78088353e71f29ddf9da&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/58204352bfeb11ebfe5c78088353e71f29ddf9da?branch=58204352bfeb11ebfe5c78088353e71f29ddf9da&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pull/17/commits</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pull/17/checks</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pull/17/files</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/1121807a4d7b760e7dc133e10dc6c35f0140c667</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/71453022de6547410fcbbc50954ebd1c90f11a8c?branch=71453022de6547410fcbbc50954ebd1c90f11a8c&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/71453022de6547410fcbbc50954ebd1c90f11a8c?branch=71453022de6547410fcbbc50954ebd1c90f11a8c&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/f46597cd193592dbfad2be01cf5685ff0eb70f80?branch=f46597cd193592dbfad2be01cf5685ff0eb70f80&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/f46597cd193592dbfad2be01cf5685ff0eb70f80?branch=f46597cd193592dbfad2be01cf5685ff0eb70f80&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/4adf1fd4c7524f65ee9a66d0be87ab84fc1deed0</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/32121d396175aba394465a3cb08e61c9c90f9491?branch=32121d396175aba394465a3cb08e61c9c90f9491&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/32121d396175aba394465a3cb08e61c9c90f9491?branch=32121d396175aba394465a3cb08e61c9c90f9491&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pull/14</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/5de69d6babcfce9ec4287f5478caaec48e0d88d1</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/e758ba23904fb9683e0d93d7f75febf62bf182a6</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/1121807a4d7b760e7dc133e10dc6c35f0140c667?branch=1121807a4d7b760e7dc133e10dc6c35f0140c667&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/1121807a4d7b760e7dc133e10dc6c35f0140c667?branch=1121807a4d7b760e7dc133e10dc6c35f0140c667&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/9648082941ed634de6048b75908f2093f8cab491</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/4adf1fd4c7524f65ee9a66d0be87ab84fc1deed0?branch=4adf1fd4c7524f65ee9a66d0be87ab84fc1deed0&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/4adf1fd4c7524f65ee9a66d0be87ab84fc1deed0?branch=4adf1fd4c7524f65ee9a66d0be87ab84fc1deed0&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pull/14/commits</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pull/14/checks</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pull/14/files</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/fcbe5131e213c3558d5147af8b4f3258ddd062aa</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/5de69d6babcfce9ec4287f5478caaec48e0d88d1?branch=5de69d6babcfce9ec4287f5478caaec48e0d88d1&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/5de69d6babcfce9ec4287f5478caaec48e0d88d1?branch=5de69d6babcfce9ec4287f5478caaec48e0d88d1&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/e758ba23904fb9683e0d93d7f75febf62bf182a6?branch=e758ba23904fb9683e0d93d7f75febf62bf182a6&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/e758ba23904fb9683e0d93d7f75febf62bf182a6?branch=e758ba23904fb9683e0d93d7f75febf62bf182a6&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/12173e416963f1d4b843d2711b4f1a4e764ec360</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/9648082941ed634de6048b75908f2093f8cab491?branch=9648082941ed634de6048b75908f2093f8cab491&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/9648082941ed634de6048b75908f2093f8cab491?branch=9648082941ed634de6048b75908f2093f8cab491&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/db950796774ffb60a9b9e81140f35ed8f64fc073</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/fcbe5131e213c3558d5147af8b4f3258ddd062aa?branch=fcbe5131e213c3558d5147af8b4f3258ddd062aa&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/fcbe5131e213c3558d5147af8b4f3258ddd062aa?branch=fcbe5131e213c3558d5147af8b4f3258ddd062aa&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/fe60d552990cf6aa1f86a36bd76527beaac59596</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/12173e416963f1d4b843d2711b4f1a4e764ec360?branch=12173e416963f1d4b843d2711b4f1a4e764ec360&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/12173e416963f1d4b843d2711b4f1a4e764ec360?branch=12173e416963f1d4b843d2711b4f1a4e764ec360&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/73a35d6c4be3dc277e73b87102081ae17c547d84</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/db950796774ffb60a9b9e81140f35ed8f64fc073?branch=db950796774ffb60a9b9e81140f35ed8f64fc073&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/db950796774ffb60a9b9e81140f35ed8f64fc073?branch=db950796774ffb60a9b9e81140f35ed8f64fc073&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/21c5f6b537914c3f23e0dbc92285e604b0f1b12e</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/fe60d552990cf6aa1f86a36bd76527beaac59596?branch=fe60d552990cf6aa1f86a36bd76527beaac59596&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/fe60d552990cf6aa1f86a36bd76527beaac59596?branch=fe60d552990cf6aa1f86a36bd76527beaac59596&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/c64790844efcb1a685b5e2fb865031cb38d3abc5</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/73a35d6c4be3dc277e73b87102081ae17c547d84?branch=73a35d6c4be3dc277e73b87102081ae17c547d84&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/73a35d6c4be3dc277e73b87102081ae17c547d84?branch=73a35d6c4be3dc277e73b87102081ae17c547d84&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/9b42c06ab6fe2f07e1d89ec6d1bfaaead536f05d</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/21c5f6b537914c3f23e0dbc92285e604b0f1b12e?branch=21c5f6b537914c3f23e0dbc92285e604b0f1b12e&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/21c5f6b537914c3f23e0dbc92285e604b0f1b12e?branch=21c5f6b537914c3f23e0dbc92285e604b0f1b12e&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/35a4e01bf593911080fa53567810f2b62c5f9c21</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/c64790844efcb1a685b5e2fb865031cb38d3abc5?branch=c64790844efcb1a685b5e2fb865031cb38d3abc5&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/c64790844efcb1a685b5e2fb865031cb38d3abc5?branch=c64790844efcb1a685b5e2fb865031cb38d3abc5&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/9b42c06ab6fe2f07e1d89ec6d1bfaaead536f05d?branch=9b42c06ab6fe2f07e1d89ec6d1bfaaead536f05d&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/9b42c06ab6fe2f07e1d89ec6d1bfaaead536f05d?branch=9b42c06ab6fe2f07e1d89ec6d1bfaaead536f05d&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/56630ab7d00eccf8373657ee9c7073a94adeb3cf</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/35a4e01bf593911080fa53567810f2b62c5f9c21?branch=35a4e01bf593911080fa53567810f2b62c5f9c21&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/35a4e01bf593911080fa53567810f2b62c5f9c21?branch=35a4e01bf593911080fa53567810f2b62c5f9c21&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/a618966bd01975991c9633d5f89405dc8581fe89</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/56630ab7d00eccf8373657ee9c7073a94adeb3cf?branch=56630ab7d00eccf8373657ee9c7073a94adeb3cf&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/56630ab7d00eccf8373657ee9c7073a94adeb3cf?branch=56630ab7d00eccf8373657ee9c7073a94adeb3cf&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/2bc896b86bd6ebb294772322c29186c5022ff329</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/a618966bd01975991c9633d5f89405dc8581fe89?branch=a618966bd01975991c9633d5f89405dc8581fe89&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/a618966bd01975991c9633d5f89405dc8581fe89?branch=a618966bd01975991c9633d5f89405dc8581fe89&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/4ba9bd383ae2db7552fcd7d4dc99355449916fde</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/2bc896b86bd6ebb294772322c29186c5022ff329?branch=2bc896b86bd6ebb294772322c29186c5022ff329&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/2bc896b86bd6ebb294772322c29186c5022ff329?branch=2bc896b86bd6ebb294772322c29186c5022ff329&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/0d622a92ee4fac9130a88762b9381435582d2d1c</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.03</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/4ba9bd383ae2db7552fcd7d4dc99355449916fde?branch=4ba9bd383ae2db7552fcd7d4dc99355449916fde&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.03</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/4ba9bd383ae2db7552fcd7d4dc99355449916fde?branch=4ba9bd383ae2db7552fcd7d4dc99355449916fde&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.03</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/462091c6a8539ab0b12163c0419c2b685ec5d3bf</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/0d622a92ee4fac9130a88762b9381435582d2d1c?branch=0d622a92ee4fac9130a88762b9381435582d2d1c&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/0d622a92ee4fac9130a88762b9381435582d2d1c?branch=0d622a92ee4fac9130a88762b9381435582d2d1c&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/79831de2f1364d46b10284d60ff2938dcb2ee3e8</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/462091c6a8539ab0b12163c0419c2b685ec5d3bf?branch=462091c6a8539ab0b12163c0419c2b685ec5d3bf&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/462091c6a8539ab0b12163c0419c2b685ec5d3bf?branch=462091c6a8539ab0b12163c0419c2b685ec5d3bf&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/1f802deafd7a1025e043e220b4611d4b579046d0</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/79831de2f1364d46b10284d60ff2938dcb2ee3e8?branch=79831de2f1364d46b10284d60ff2938dcb2ee3e8&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/79831de2f1364d46b10284d60ff2938dcb2ee3e8?branch=79831de2f1364d46b10284d60ff2938dcb2ee3e8&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/772f81f4f4ce31324ea545f7c986b341951b20c5</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/1f802deafd7a1025e043e220b4611d4b579046d0?branch=1f802deafd7a1025e043e220b4611d4b579046d0&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/1f802deafd7a1025e043e220b4611d4b579046d0?branch=1f802deafd7a1025e043e220b4611d4b579046d0&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/cc7cb971695e0585c8154b729f08572234a7e4e6</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/772f81f4f4ce31324ea545f7c986b341951b20c5?branch=772f81f4f4ce31324ea545f7c986b341951b20c5&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/772f81f4f4ce31324ea545f7c986b341951b20c5?branch=772f81f4f4ce31324ea545f7c986b341951b20c5&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/b362b8736112e63637bd7d78578b68a833997757</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/cc7cb971695e0585c8154b729f08572234a7e4e6?branch=cc7cb971695e0585c8154b729f08572234a7e4e6&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/cc7cb971695e0585c8154b729f08572234a7e4e6?branch=cc7cb971695e0585c8154b729f08572234a7e4e6&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/c8956c5d59c83a1af003428ab15d42668c5916af</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/b362b8736112e63637bd7d78578b68a833997757?branch=b362b8736112e63637bd7d78578b68a833997757&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/b362b8736112e63637bd7d78578b68a833997757?branch=b362b8736112e63637bd7d78578b68a833997757&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/06c8287563f55c2048b284e1a7705313ca99c662</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/c8956c5d59c83a1af003428ab15d42668c5916af?branch=c8956c5d59c83a1af003428ab15d42668c5916af&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/c8956c5d59c83a1af003428ab15d42668c5916af?branch=c8956c5d59c83a1af003428ab15d42668c5916af&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pull/1</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/96cabd2235d6bba8ee3c6c2593ccd8b6aeaa4d7f</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/f07f1c2225889e5b29d05e10aa914e3458f0ab23</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/06c8287563f55c2048b284e1a7705313ca99c662?branch=06c8287563f55c2048b284e1a7705313ca99c662&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/06c8287563f55c2048b284e1a7705313ca99c662?branch=06c8287563f55c2048b284e1a7705313ca99c662&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pull/1/commits</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pull/1/checks</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/pull/1/files</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/df83835a1ccc7e52a60a48c55e1284ee8c659340</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/96cabd2235d6bba8ee3c6c2593ccd8b6aeaa4d7f?branch=96cabd2235d6bba8ee3c6c2593ccd8b6aeaa4d7f&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/96cabd2235d6bba8ee3c6c2593ccd8b6aeaa4d7f?branch=96cabd2235d6bba8ee3c6c2593ccd8b6aeaa4d7f&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/f07f1c2225889e5b29d05e10aa914e3458f0ab23?branch=f07f1c2225889e5b29d05e10aa914e3458f0ab23&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/f07f1c2225889e5b29d05e10aa914e3458f0ab23?branch=f07f1c2225889e5b29d05e10aa914e3458f0ab23&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/88eca3949c49d0c0dd6ee387381f35a6c6a3794b</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/df83835a1ccc7e52a60a48c55e1284ee8c659340?branch=df83835a1ccc7e52a60a48c55e1284ee8c659340&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/df83835a1ccc7e52a60a48c55e1284ee8c659340?branch=df83835a1ccc7e52a60a48c55e1284ee8c659340&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/092dbaf6e5eba98006e25457be2958d83d9a1808</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/88eca3949c49d0c0dd6ee387381f35a6c6a3794b?branch=88eca3949c49d0c0dd6ee387381f35a6c6a3794b&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/88eca3949c49d0c0dd6ee387381f35a6c6a3794b?branch=88eca3949c49d0c0dd6ee387381f35a6c6a3794b&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/4aad72e9bf7f03af04e993e7d0d856e34edeb778</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/092dbaf6e5eba98006e25457be2958d83d9a1808?branch=092dbaf6e5eba98006e25457be2958d83d9a1808&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/092dbaf6e5eba98006e25457be2958d83d9a1808?branch=092dbaf6e5eba98006e25457be2958d83d9a1808&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/0174bdaa635276cf2366e5562da9e3a1076a6b96</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/4aad72e9bf7f03af04e993e7d0d856e34edeb778?branch=4aad72e9bf7f03af04e993e7d0d856e34edeb778&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/4aad72e9bf7f03af04e993e7d0d856e34edeb778?branch=4aad72e9bf7f03af04e993e7d0d856e34edeb778&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/d9f4e634e60b4c8b67173cc72c489ee4b6f1ba05</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/0174bdaa635276cf2366e5562da9e3a1076a6b96?branch=0174bdaa635276cf2366e5562da9e3a1076a6b96&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/0174bdaa635276cf2366e5562da9e3a1076a6b96?branch=0174bdaa635276cf2366e5562da9e3a1076a6b96&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/8f7afba07c1abb971dc89af0d900a26432e8bb53</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/d9f4e634e60b4c8b67173cc72c489ee4b6f1ba05?branch=d9f4e634e60b4c8b67173cc72c489ee4b6f1ba05&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/d9f4e634e60b4c8b67173cc72c489ee4b6f1ba05?branch=d9f4e634e60b4c8b67173cc72c489ee4b6f1ba05&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/b2ec6b41af53068899ff0a4feed6dbef022e446f</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/8f7afba07c1abb971dc89af0d900a26432e8bb53?branch=8f7afba07c1abb971dc89af0d900a26432e8bb53&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/8f7afba07c1abb971dc89af0d900a26432e8bb53?branch=8f7afba07c1abb971dc89af0d900a26432e8bb53&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/c9594608899066fcd5b2195c9230570fc41c977e</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/b2ec6b41af53068899ff0a4feed6dbef022e446f?branch=b2ec6b41af53068899ff0a4feed6dbef022e446f&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/b2ec6b41af53068899ff0a4feed6dbef022e446f?branch=b2ec6b41af53068899ff0a4feed6dbef022e446f&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/1f1ba1fa56bf37c2242f35acf0643a479cedf54e</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/c9594608899066fcd5b2195c9230570fc41c977e?branch=c9594608899066fcd5b2195c9230570fc41c977e&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/c9594608899066fcd5b2195c9230570fc41c977e?branch=c9594608899066fcd5b2195c9230570fc41c977e&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/32064026711d78b12d36492c615731579d01af3a</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/1f1ba1fa56bf37c2242f35acf0643a479cedf54e?branch=1f1ba1fa56bf37c2242f35acf0643a479cedf54e&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/1f1ba1fa56bf37c2242f35acf0643a479cedf54e?branch=1f1ba1fa56bf37c2242f35acf0643a479cedf54e&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/582f6d9f4743a9192966586bd3c71a3d20980114</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/32064026711d78b12d36492c615731579d01af3a?branch=32064026711d78b12d36492c615731579d01af3a&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/32064026711d78b12d36492c615731579d01af3a?branch=32064026711d78b12d36492c615731579d01af3a&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/46bbb8aa134583948b23fc04f35b781fb58d05b2</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/582f6d9f4743a9192966586bd3c71a3d20980114?branch=582f6d9f4743a9192966586bd3c71a3d20980114&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/582f6d9f4743a9192966586bd3c71a3d20980114?branch=582f6d9f4743a9192966586bd3c71a3d20980114&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/097b14d570ac83acea6b71786b2d5b41f78f859a</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/46bbb8aa134583948b23fc04f35b781fb58d05b2?branch=46bbb8aa134583948b23fc04f35b781fb58d05b2&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/46bbb8aa134583948b23fc04f35b781fb58d05b2?branch=46bbb8aa134583948b23fc04f35b781fb58d05b2&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/b2988fab741702531e883f156f46df02bb9f5307</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/097b14d570ac83acea6b71786b2d5b41f78f859a?branch=097b14d570ac83acea6b71786b2d5b41f78f859a&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/097b14d570ac83acea6b71786b2d5b41f78f859a?branch=097b14d570ac83acea6b71786b2d5b41f78f859a&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/7a1760152ab908312cf1fb4fd34592c5f39b79d2</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/b2988fab741702531e883f156f46df02bb9f5307?branch=b2988fab741702531e883f156f46df02bb9f5307&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/b2988fab741702531e883f156f46df02bb9f5307?branch=b2988fab741702531e883f156f46df02bb9f5307&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/c8228465352a86d43084245d597ce77ad5b094a3</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/7a1760152ab908312cf1fb4fd34592c5f39b79d2?branch=7a1760152ab908312cf1fb4fd34592c5f39b79d2&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/7a1760152ab908312cf1fb4fd34592c5f39b79d2?branch=7a1760152ab908312cf1fb4fd34592c5f39b79d2&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/c8228465352a86d43084245d597ce77ad5b094a3?branch=c8228465352a86d43084245d597ce77ad5b094a3&amp;diff=unified</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://github.com/layumi/Seg-Uncertainty/commit/c8228465352a86d43084245d597ce77ad5b094a3?branch=c8228465352a86d43084245d597ce77ad5b094a3&amp;diff=split</loc>
+  <lastmod>2021-03-21T07:36:54+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+
+
+</urlset>
