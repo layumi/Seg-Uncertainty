@@ -3,6 +3,7 @@
 PRs are welcome!
 
 **Arxiv**
+- Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation [[29 Mar 2021]](https://arxiv.org/abs/2103.15685)
 - Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation [[26 Jan 2021]](https://arxiv.org/abs/2101.10979)
 - Class-Conditional Domain Adaptation on Semantic Segmentation [[27 Nov 2019]](https://arxiv.org/abs/1911.11981v1)
 - Domain Bridge for Unpaired Image-to-Image Translation and Unsupervised Domain Adaptation [[23 Oct 2019]](https://arxiv.org/abs/1910.10563)
