@@ -6,6 +6,9 @@ or create pull request.
 Priorities are given to papers whose codes are published.
 
 **Arxiv**
+- Contrastive Learning and Self-Training for Unsupervised Domain Adaptation in Semantic Segmentation [[5 May 2021]](https://arxiv.org/abs/2105.02001)
+- ACDC: The Adverse Conditions Dataset with Correspondences for Semantic Driving Scene Understanding [[29 April]](https://arxiv.org/abs/2104.13395)
+- Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation [[28 Apr]](https://arxiv.org/abs/2104.13613)
 - Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation [[29 Mar 2021]](https://arxiv.org/abs/2103.15685)
 - Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation [[26 Jan 2021]](https://arxiv.org/abs/2101.10979)
 - Class-Conditional Domain Adaptation on Semantic Segmentation [[27 Nov 2019]](https://arxiv.org/abs/1911.11981v1)
@@ -21,6 +24,7 @@ Priorities are given to papers whose codes are published.
 - Weakly Supervised Adversarial Domain Adaptation for Semantic Segmentation in Urban Scenes [[TIP 2019]](https://arxiv.org/abs/1904.09092v1)
 
 **Conference**
+- Rethinking Ensemble-Distillation for Semantic Segmentation Based Unsupervised Domain Adaptation [[CVPRW 2021]](https://arxiv.org/abs/2104.14203)
 - Instance Adaptive Self-Training for Unsupervised Domain Adaptation [[ECCV 2020]](https://arxiv.org/abs/2008.12197)
 - Unsupervised Scene Adaptation with Memory Regularization in vivo [[IJCAI 2020]](https://arxiv.org/abs/1912.11164) [[code]](https://github.com/layumi/Seg-Uncertainty)
 - Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation [[NeurIPS 2020]](https://proceedings.neurips.cc/paper/2020/hash/ed265bc903a5a097f61d3ec064d96d2e-Abstract.html)[[Pytorch]](https://github.com/RoyalVane/ASM)
