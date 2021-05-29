@@ -1,6 +1,9 @@
 ## Awesome Segmentation Domain Adaptation
 
-PRs are welcome!
+If you notice any result or the public code that has not been included in this page, please connect [Zhedong Zheng](mailto:zdzheng12@gmail.com) without hesitation to add the method. You are welcomed! 
+or create pull request.
+
+Priorities are given to papers whose codes are published.
 
 **Arxiv**
 - Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation [[29 Mar 2021]](https://arxiv.org/abs/2103.15685)
