@@ -13,8 +13,6 @@ In this repo, we provide the code for the two papers, i.e.,
 ## Table of contents
 * [Prerequisites](#prerequisites)
 * [Prepare Data](#prepare-data)
-* [Trained Model](#trained-model)
-* [Prerequisites](#prerequisites)
 * [Training](#training)
 * [Testing](#testing)
 * [Trained Model](#trained-model)
