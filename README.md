@@ -10,6 +10,18 @@ In this repo, we provide the code for the two papers, i.e.,
 
 - MRNet+Rectifying: [Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation](https://arxiv.org/pdf/2003.03773.pdf), IJCV (2020) [[中文介绍]](https://zhuanlan.zhihu.com/p/130220572)
 
+## Table of contents
+* [Prerequisites](#prerequisites)
+* [Prepare Data](#prepare-data)
+* [Trained Model](#trained-model)
+* [Prerequisites](#prerequisites)
+* [Training](#training)
+* [Testing](#testing)
+* [Trained Model](#trained-model)
+* [The Key Code](#the-key-code)
+* [Related Works](#related-works)
+* [Citation](#citation)
+
 ### Prerequisites
 - Python 3.6
 - GPU Memory >= 11G (e.g., GTX2080Ti or GTX1080Ti)
