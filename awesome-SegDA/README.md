@@ -1,4 +1,4 @@
-## Awesome Segmentation Domain Adaptation
+## Awesome Segmentation Domain Adaptation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 If you notice any result or the public code that has not been included in this page, please connect [Zhedong Zheng](mailto:zdzheng12@gmail.com) without hesitation to add the method. You are welcomed! 
 or create pull request.
