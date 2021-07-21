@@ -117,6 +117,7 @@ We also would like to thank great works as follows:
   author={Zheng, Zhedong and Yang, Yi},
   journal={International Journal of Computer Vision (IJCV)},
   doi={10.1007/s11263-020-01395-y},
+  note={\mbox{doi}:\url{10.1007/s11263-020-01395-y}},
   year={2020}
 }
 ```
