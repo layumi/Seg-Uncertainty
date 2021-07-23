@@ -19,7 +19,8 @@ Priorities are given to papers whose codes are published.
 
 **Journal**
 - Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation 
-[[IJCV 2020]](https://arxiv.org/abs/2003.03773)
+[[IJCV 2021]](https://arxiv.org/abs/2003.03773)
+- Affinity Space Adaptation for Semantic Segmentation Across Domains [[TIP2020]](https://arxiv.org/pdf/2009.12559.pdf)
 - Semantic-aware short path adversarial training for cross-domain semantic segmentation [[Neurocomputing 2019]](https://www.sciencedirect.com/science/article/pii/S0925231219315656#fig0002) 
 - Weakly Supervised Adversarial Domain Adaptation for Semantic Segmentation in Urban Scenes [[TIP 2019]](https://arxiv.org/abs/1904.09092v1)
 
