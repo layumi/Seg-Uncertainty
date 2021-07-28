@@ -8,7 +8,7 @@ In this repo, we provide the code for the two papers, i.e.,
 
 - MRNet：[Unsupervised Scene Adaptation with Memory Regularization in vivo](https://arxiv.org/pdf/1912.11164.pdf), IJCAI (2020)
 
-- MRNet+Rectifying: [Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation](https://arxiv.org/pdf/2003.03773.pdf), IJCV (2020) [[中文介绍]](https://zhuanlan.zhihu.com/p/130220572)
+- MRNet+Rectifying: [Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation](https://arxiv.org/pdf/2003.03773.pdf), IJCV (2021) [[中文介绍]](https://zhuanlan.zhihu.com/p/130220572)
 
 ## Table of contents
 * [Prerequisites](#prerequisites)
@@ -106,19 +106,19 @@ We also would like to thank great works as follows:
 
 ### Citation
 ```bibtex
-@inproceedings{zheng2019unsupervised,
+@inproceedings{zheng2020unsupervised,
   title={Unsupervised Scene Adaptation with Memory Regularization in vivo},
   author={Zheng, Zhedong and Yang, Yi},
   booktitle={IJCAI},
   year={2020}
 }
-@article{zheng2020unsupervised,
+@article{zheng2021unsupervised,
   title={Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation },
   author={Zheng, Zhedong and Yang, Yi},
   journal={International Journal of Computer Vision (IJCV)},
   doi={10.1007/s11263-020-01395-y},
   note={\mbox{doi}:\url{10.1007/s11263-020-01395-y}},
-  year={2020}
+  year={2021}
 }
 ```
 
