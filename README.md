@@ -112,7 +112,7 @@ We also would like to thank great works as follows:
   booktitle={IJCAI},
   year={2020}
 }
-@article{zheng2021unsupervised,
+@article{zheng2021rectifying,
   title={Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation },
   author={Zheng, Zhedong and Yang, Yi},
   journal={International Journal of Computer Vision (IJCV)},
