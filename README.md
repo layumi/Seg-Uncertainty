@@ -11,6 +11,7 @@ In this repo, we provide the code for the two papers, i.e.,
 - MRNet+Rectifying: [Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation](https://arxiv.org/pdf/2003.03773.pdf), IJCV (2021) [[中文介绍]](https://zhuanlan.zhihu.com/p/130220572)
 
 ## Table of contents
+* [CommonQ&A](#Common-Q&A)
 * [Prerequisites](#prerequisites)
 * [Prepare Data](#prepare-data)
 * [Training](#training)
@@ -19,6 +20,15 @@ In this repo, we provide the code for the two papers, i.e.,
 * [The Key Code](#the-key-code)
 * [Related Works](#related-works)
 * [Citation](#citation)
+
+### Common Q&A 
+1. Why KLDivergence is always non-negative (>=0)?
+Please check the wikipedia at (https://en.wikipedia.org/wiki/Kullback–Leibler_divergence#Properties) . It provides one good demonstration. 
+
+2. Why log_sm and sm is used? 
+You may check the pytorch doc at https://pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html?highlight=nn%20kldivloss#torch.nn.KLDivLoss. 
+
+I follow the discussion at https://discuss.pytorch.org/t/kl-divergence-loss/65393
 
 ### Prerequisites
 - Python 3.6
