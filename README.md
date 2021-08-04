@@ -23,11 +23,12 @@ In this repo, we provide the code for the two papers, i.e.,
 
 ### Common Q&A 
 1. Why KLDivergence is always non-negative (>=0)?
+
 Please check the wikipedia at (https://en.wikipedia.org/wiki/Kullback–Leibler_divergence#Properties) . It provides one good demonstration. 
 
-2. Why log_sm and sm is used? 
-You may check the pytorch doc at https://pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html?highlight=nn%20kldivloss#torch.nn.KLDivLoss. 
+2. Why log_sm and sm is used?
 
+You may check the pytorch doc at https://pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html?highlight=nn%20kldivloss#torch.nn.KLDivLoss. 
 I follow the discussion at https://discuss.pytorch.org/t/kl-divergence-loss/65393
 
 ### Prerequisites
