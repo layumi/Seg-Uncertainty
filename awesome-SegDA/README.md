@@ -9,7 +9,7 @@ Priorities are given to papers whose codes are published.
 - Contrastive Learning and Self-Training for Unsupervised Domain Adaptation in Semantic Segmentation [[5 May 2021]](https://arxiv.org/abs/2105.02001)
 - ACDC: The Adverse Conditions Dataset with Correspondences for Semantic Driving Scene Understanding [[29 April 2021]](https://arxiv.org/abs/2104.13395)
 - Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation [[28 Apr 2021]](https://arxiv.org/abs/2104.13613)
-- Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation [[29 Mar 2021]](https://arxiv.org/abs/2103.15685)
+- Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation [[29 Mar 2021]](https://arxiv.org/abs/2103.15685)[[code]](https://github.com/layumi/AdaBoost_Seg)
 - Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation [[26 Jan 2021]](https://arxiv.org/abs/2101.10979)
 - Class-Conditional Domain Adaptation on Semantic Segmentation [[27 Nov 2019]](https://arxiv.org/abs/1911.11981v1)
 - Domain Bridge for Unpaired Image-to-Image Translation and Unsupervised Domain Adaptation [[23 Oct 2019]](https://arxiv.org/abs/1910.10563)
