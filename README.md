@@ -21,6 +21,9 @@ In this repo, we provide the code for the two papers, i.e.,
 * [Related Works](#related-works)
 * [Citation](#citation)
 
+### News
+[13 Aug 2021] We release one new method by Adaptive Boosting (AdaBoost) for Domain Adaptation. You may check the project at https://github.com/layumi/AdaBoost_Seg
+
 ### Common Q&A 
 1. Why KLDivergence is always non-negative (>=0)?
 
