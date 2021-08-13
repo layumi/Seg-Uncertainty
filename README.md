@@ -12,12 +12,12 @@ In this repo, we provide the code for the two papers, i.e.,
 
 ## Table of contents
 * [CommonQ&A](#Common-Q&A)
+* [The Core Code](#the-core-code)
 * [Prerequisites](#prerequisites)
 * [Prepare Data](#prepare-data)
 * [Training](#training)
 * [Testing](#testing)
 * [Trained Model](#trained-model)
-* [The Key Code](#the-key-code)
 * [Related Works](#related-works)
 * [Citation](#citation)
 
@@ -31,6 +31,12 @@ Please check the wikipedia at (https://en.wikipedia.org/wiki/Kullback–Leibler_
 You may check the pytorch doc at https://pytorch.org/docs/stable/generated/torch.nn.KLDivLoss.html?highlight=nn%20kldivloss#torch.nn.KLDivLoss. 
 I follow the discussion at https://discuss.pytorch.org/t/kl-divergence-loss/65393
 
+ ### The Core Code
+ Core code is relatively simple, and could be directly applied to other works. 
+ - Memory in vivo:  https://github.com/layumi/Seg_Uncertainty/blob/master/trainer_ms.py#L232
+
+ - Recitfying Pseudo label:  https://github.com/layumi/Seg_Uncertainty/blob/master/trainer_ms_variance.py#L166
+ 
 ### Prerequisites
 - Python 3.6
 - GPU Memory >= 11G (e.g., GTX2080Ti or GTX1080Ti)
@@ -102,12 +108,6 @@ Alternatively, you could download extra two datasets from [SYNTHIA] and [OxfordR
  Note that the evaluation code I provided for SYNTHIA-to-Cityscapes is still average the IoU by divide 19.
  Actually, you need to re-calculate the value by divide 16. There are only 16 shared classes for SYNTHIA-to-Cityscapes. 
  In this way, the result is same as the value reported in paper.
-
- ### The Key Code
- Core code is relatively simple, and could be directly applied to other works. 
- - Memory in vivo:  https://github.com/layumi/Seg_Uncertainty/blob/master/trainer_ms.py#L232
-
- - Recitfying Pseudo label:  https://github.com/layumi/Seg_Uncertainty/blob/master/trainer_ms_variance.py#L166
 
  ### Related Works
  We also would like to thank great works as follows:
