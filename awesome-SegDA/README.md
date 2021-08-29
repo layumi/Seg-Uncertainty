@@ -27,6 +27,7 @@ Priorities are given to papers whose codes are published.
 **Conference**
 - Rethinking Ensemble-Distillation for Semantic Segmentation Based Unsupervised Domain Adaptation [[CVPRW 2021]](https://arxiv.org/abs/2104.14203)
 - Instance Adaptive Self-Training for Unsupervised Domain Adaptation [[ECCV 2020]](https://arxiv.org/abs/2008.12197)
+- Two-phase Pseudo Label Densification for Self-training based Domain Adaptation [[ECCV 2020]](https://arxiv.org/abs/2012.04828)
 - Unsupervised Scene Adaptation with Memory Regularization in vivo [[IJCAI 2020]](https://arxiv.org/abs/1912.11164) [[code]](https://github.com/layumi/Seg-Uncertainty)
 - Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation [[NeurIPS 2020]](https://proceedings.neurips.cc/paper/2020/hash/ed265bc903a5a097f61d3ec064d96d2e-Abstract.html)[[Pytorch]](https://github.com/RoyalVane/ASM)
 - Content-Consistent Matching for Domain Adaptive Semantic Segmentation [[ECCV 2020]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590426.pdf) [[Code]](https://github.com/Solacex/CCM) 
