@@ -22,7 +22,9 @@ In this repo, we provide the code for the two papers, i.e.,
 * [Citation](#citation)
 
 ### News
-[13 Aug 2021] We release one new method by Adaptive Boosting (AdaBoost) for Domain Adaptation. You may check the project at https://github.com/layumi/AdaBoost_Seg
+- [5 Sep 2021] Zheng etal. apply the Uncertainty to domain adaptive reid, and also achieve good performance. "Exploiting Sample Uncertainty for Domain Adaptive Person Re-Identification" Kecheng Zheng, Cuiling Lan, Wenjun Zeng, Zhizheng Zhang, and Zheng-Jun Zha. AAAI 2021
+
+- [13 Aug 2021] We release one new method by Adaptive Boosting (AdaBoost) for Domain Adaptation. You may check the project at https://github.com/layumi/AdaBoost_Seg
 
 ### Common Q&A 
 1. Why KLDivergence is always non-negative (>=0)?
