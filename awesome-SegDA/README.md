@@ -25,6 +25,7 @@ Priorities are given to papers whose codes are published.
 - Weakly Supervised Adversarial Domain Adaptation for Semantic Segmentation in Urban Scenes [[TIP 2019]](https://arxiv.org/abs/1904.09092v1)
 
 **Conference**
+- Improving Domain Generalization in Urban-Scene Segmentationvia Instance Selective Whitening [[CVPR2021]](https://arxiv.org/abs/2103.15597)
 - Rethinking Ensemble-Distillation for Semantic Segmentation Based Unsupervised Domain Adaptation [[CVPRW 2021]](https://arxiv.org/abs/2104.14203)
 - Instance Adaptive Self-Training for Unsupervised Domain Adaptation [[ECCV 2020]](https://arxiv.org/abs/2008.12197)
 - Two-phase Pseudo Label Densification for Self-training based Domain Adaptation [[ECCV 2020]](https://arxiv.org/abs/2012.04828)
