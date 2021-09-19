@@ -6,6 +6,7 @@ or create pull request.
 Priorities are given to papers whose codes are published.
 
 **Arxiv**
+- Cross-Region Domain Adaptation for Class-level Alignment [[14 Sep 2021]](https://arxiv.org/pdf/2109.06422.pdf)
 - Contrastive Learning and Self-Training for Unsupervised Domain Adaptation in Semantic Segmentation [[5 May 2021]](https://arxiv.org/abs/2105.02001)
 - ACDC: The Adverse Conditions Dataset with Correspondences for Semantic Driving Scene Understanding [[29 April 2021]](https://arxiv.org/abs/2104.13395)
 - Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation [[28 Apr 2021]](https://arxiv.org/abs/2104.13613)
