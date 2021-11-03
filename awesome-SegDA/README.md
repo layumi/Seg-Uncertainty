@@ -11,7 +11,6 @@ Priorities are given to papers whose codes are published.
 - ACDC: The Adverse Conditions Dataset with Correspondences for Semantic Driving Scene Understanding [[29 April 2021]](https://arxiv.org/abs/2104.13395)
 - Domain Adaptive Semantic Segmentation with Self-Supervised Depth Estimation [[28 Apr 2021]](https://arxiv.org/abs/2104.13613)
 - Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation [[29 Mar 2021]](https://arxiv.org/abs/2103.15685)[[code]](https://github.com/layumi/AdaBoost_Seg)
-- Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation [[26 Jan 2021]](https://arxiv.org/abs/2101.10979)
 - Class-Conditional Domain Adaptation on Semantic Segmentation [[27 Nov 2019]](https://arxiv.org/abs/1911.11981v1)
 - Domain Bridge for Unpaired Image-to-Image Translation and Unsupervised Domain Adaptation [[23 Oct 2019]](https://arxiv.org/abs/1910.10563)
 - Restyling Data: Application to Unsupervised Domain Adaptation [[24 Sep 2019]](https://arxiv.org/abs/1909.10900)
@@ -26,6 +25,8 @@ Priorities are given to papers whose codes are published.
 - Weakly Supervised Adversarial Domain Adaptation for Semantic Segmentation in Urban Scenes [[TIP 2019]](https://arxiv.org/abs/1904.09092v1)
 
 **Conference**
+- Generalize Then Adapt: Source-Free Domain Adaptive Semantic Segmentation [[ICCV2021]](https://openaccess.thecvf.com/content/ICCV2021/papers/Kundu_Generalize_Then_Adapt_Source-Free_Domain_Adaptive_Semantic_Segmentation_ICCV_2021_paper.pdf)
+- Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation [[CVPR2021]](https://arxiv.org/abs/2101.10979)
 - Improving Domain Generalization in Urban-Scene Segmentationvia Instance Selective Whitening [[CVPR2021]](https://arxiv.org/abs/2103.15597)
 - Rethinking Ensemble-Distillation for Semantic Segmentation Based Unsupervised Domain Adaptation [[CVPRW 2021]](https://arxiv.org/abs/2104.14203)
 - Instance Adaptive Self-Training for Unsupervised Domain Adaptation [[ECCV 2020]](https://arxiv.org/abs/2008.12197)
