@@ -24,6 +24,7 @@ In this repo, we provide the code for the two papers, i.e.,
 * [Citation](#citation)
 
 ### News
+- [27 Jan 2023] You are welcomed to check our new transformer-based work [PiPa](https://github.com/chen742/PiPa), which achieves **75.6** mIoU on GTA5->Cityscapes. 
 - [5 Sep 2021] Zheng etal. apply the Uncertainty to domain adaptive reid, and also achieve good performance. "Exploiting Sample Uncertainty for Domain Adaptive Person Re-Identification" Kecheng Zheng, Cuiling Lan, Wenjun Zeng, Zhizheng Zhang, and Zheng-Jun Zha. AAAI 2021
 
 - [13 Aug 2021] We release one new method by Adaptive Boosting (AdaBoost) for Domain Adaptation. You may check the project at https://github.com/layumi/AdaBoost_Seg
