@@ -26,6 +26,10 @@ Priorities are given to papers whose codes are published.
 - Weakly Supervised Adversarial Domain Adaptation for Semantic Segmentation in Urban Scenes [[TIP 2019]](https://arxiv.org/abs/1904.09092v1)
 
 **Conference**
+- DAformer: Improving Network Architectures and Training Strategies for Domain-Adaptive Semantic Segmentation [[CVPR2022]]
+- Class-balanced pixel-level self-labeling for domain adaptive semantic segmentation [[CVPR2022]]
+- Undoing the damage of label shift for cross-domain semantic segmentation [[CVPR2022]]
+- Adas: A direct adaptation strategy for multi-target domain adaptive semantic segmentation [[CVPR2022]]
 - Generalize Then Adapt: Source-Free Domain Adaptive Semantic Segmentation [[ICCV2021]](https://openaccess.thecvf.com/content/ICCV2021/papers/Kundu_Generalize_Then_Adapt_Source-Free_Domain_Adaptive_Semantic_Segmentation_ICCV_2021_paper.pdf)
 - Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation [[CVPR2021]](https://arxiv.org/abs/2101.10979)
 - Improving Domain Generalization in Urban-Scene Segmentationvia Instance Selective Whitening [[CVPR2021]](https://arxiv.org/abs/2103.15597)
