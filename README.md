@@ -12,7 +12,7 @@ In this repo, we provide the code for the two papers, i.e.,
 
 - [[中文介绍视频]](https://www.bilibili.com/video/BV14p4y1s77p)
 
-## Pretrained Model
+## Initial Model
 The original DeepLab link of ucmerced is failed. Please use the following link.
 https://drive.google.com/file/d/1BMTTMCNkV98pjZh_rU0Pp47zeVqF3MEc/view?usp=share_link 
 
