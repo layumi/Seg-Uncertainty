@@ -4,13 +4,15 @@
 
 ![](https://github.com/layumi/Seg_Uncertainty/blob/master/Visual.jpg)
 
+[Zhedong Zheng](zdzheng.xyz), [Yi Yang](https://reler.net)
+
 In this repo, we provide the code for the two papers, i.e., 
 
 - MRNet：[Unsupervised Scene Adaptation with Memory Regularization in vivo](https://arxiv.org/pdf/1912.11164.pdf), IJCAI (2020)
 
 - MRNet+Rectifying: [Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation](https://arxiv.org/pdf/2003.03773.pdf), IJCV (2021) [[中文介绍]](https://zhuanlan.zhihu.com/p/130220572) [[Poster]](https://zdzheng.xyz/files/valse_ijcv_poster.pdf)
 
-- [[中文介绍视频]](https://www.bilibili.com/video/BV14p4y1s77p)
+- [[中文介绍视频]](https://www.bilibili.com/video/BV14p4y1s77p) 
 
 ## Initial Model
 The original DeepLab link of ucmerced is failed. Please use the following link.
