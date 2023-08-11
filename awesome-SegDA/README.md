@@ -6,7 +6,6 @@ or create pull request.
 Priorities are given to papers whose codes are published.
 
 **Arxiv**
-- PiPa: Pixel- and Patch-wise Self-supervised Learning for Domain Adaptative Semantic Segmentation [[14 Nov 2022]](https://arxiv.org/abs/2211.07609) [[Code]](https://github.com/chen742/PiPa)
 - Cross-Region Domain Adaptation for Class-level Alignment [[14 Sep 2021]](https://arxiv.org/pdf/2109.06422.pdf)
 - Contrastive Learning and Self-Training for Unsupervised Domain Adaptation in Semantic Segmentation [[5 May 2021]](https://arxiv.org/abs/2105.02001)
 - ACDC: The Adverse Conditions Dataset with Correspondences for Semantic Driving Scene Understanding [[29 April 2021]](https://arxiv.org/abs/2104.13395)
@@ -26,6 +25,7 @@ Priorities are given to papers whose codes are published.
 - Weakly Supervised Adversarial Domain Adaptation for Semantic Segmentation in Urban Scenes [[TIP 2019]](https://arxiv.org/abs/1904.09092v1)
 
 **Conference**
+- PiPa: Pixel- and Patch-wise Self-supervised Learning for Domain Adaptative Semantic Segmentation [[ACM MM2023]](https://arxiv.org/abs/2211.07609) [[Code]](https://github.com/chen742/PiPa)
 - DAformer: Improving Network Architectures and Training Strategies for Domain-Adaptive Semantic Segmentation [[CVPR2022]]
 - Class-balanced pixel-level self-labeling for domain adaptive semantic segmentation [[CVPR2022]]
 - Undoing the damage of label shift for cross-domain semantic segmentation [[CVPR2022]]
