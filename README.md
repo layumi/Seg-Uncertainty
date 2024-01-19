@@ -41,6 +41,7 @@ gdown 1BMTTMCNkV98pjZh_rU0Pp47zeVqF3MEc
 * [Citation](#citation)
 
 ### News
+- [19 Jan 2024] We further apply the uncertainty to compositional image retrieval. The paper is accepted by ICLR'24 [[code]](https://github.com/Monoxide-Chen/uncertainty_retrieval).
 - [27 Jan 2023] You are welcomed to check our new transformer-based work [PiPa](https://github.com/chen742/PiPa), which achieves **75.6** mIoU on GTA5->Cityscapes. 
 - [5 Sep 2021] Zheng etal. apply the Uncertainty to domain adaptive reid, and also achieve good performance. "Exploiting Sample Uncertainty for Domain Adaptive Person Re-Identification" Kecheng Zheng, Cuiling Lan, Wenjun Zeng, Zhizheng Zhang, and Zheng-Jun Zha. AAAI 2021
 
