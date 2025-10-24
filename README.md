@@ -1,6 +1,8 @@
 ## Seg_Uncertainty
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Citations](https://img.shields.io/badge/Citations-500%2B-brightgreen)](https://scholar.google.com/scholar?cites=15338847391777798283)
+[![Stars](https://img.shields.io/github/stars/layumi/Seg-Uncertainty)](https://github.com/layumi/Seg-Uncertainty/stargazers)
 
 ![](https://github.com/layumi/Seg_Uncertainty/blob/master/Visual.jpg)
 
