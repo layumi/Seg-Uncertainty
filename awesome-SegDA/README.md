@@ -5,6 +5,60 @@ or create pull request.
 
 Priorities are given to papers whose codes are published.
 
+## Benchmark results
+
+Results on the two standard synthetic-to-real benchmarks for this task. All numbers are mIoU on the Cityscapes validation set, each method at its best reported configuration, taken from the comparison tables of the original papers. Where a method is quoted by several papers the value may differ by about 1 mIoU depending on the evaluation protocol, see the notes below.
+
+### GTA5 → Cityscapes (19 classes)
+
+| Year | Method | Venue | Backbone | mIoU | Code |
+| :-- | :-- | :-- | :-- | --: | :-- |
+| 2018 | AdaptSegNet | CVPR2018 | DeepLabV2 (ResNet-101) | 42.4 | [code](https://github.com/wasidennis/AdaptSegNet) |
+| 2019 | ADVENT | CVPR2019 | DeepLabV2 (ResNet-101) | 45.5 | [code](https://github.com/valeoai/ADVENT) |
+| 2019 | CBST | ICCV2019 | DeepLabV2 (ResNet-101) | 45.9 | [code](https://github.com/yzou2/CBST) |
+| 2019 | BDL | CVPR2019 | DeepLabV2 (ResNet-101) | 48.5 | [code](https://github.com/liyunsheng13/BDL) |
+| 2020 | MRNet | IJCAI2020 | DeepLabV2 (ResNet-101) | 48.3 | [code](https://github.com/layumi/Seg-Uncertainty) |
+| 2021 | MRNet + Rectifying | IJCV2021 | DeepLabV2 (ResNet-101) | 50.3 | [code](https://github.com/layumi/Seg-Uncertainty) |
+| 2021 | DACS | CVPR2021 | DeepLabV2 (ResNet-101) | 52.1 | [code](https://github.com/vikolss/DACS) |
+| 2021 | ProDA | CVPR2021 | DeepLabV2 (ResNet-101) | 57.5 | [code](https://github.com/microsoft/ProDA) |
+| 2022 | AdaBoost | TIP2022 | DeepLabV2 (ResNet-101) | 50.9 | [code](https://github.com/layumi/AdaBoost_Seg) |
+| 2022 | ProCA | ECCV2022 | DeepLabV2 (ResNet-101) | 56.3 | [code](https://github.com/jiangzhengkai/ProCA) |
+| 2022 | DecoupleNet | ECCV2022 | DeepLabV2 (ResNet-101) | 59.1 | [code](https://github.com/dvlab-research/DecoupleNet) |
+| 2022 | CPSL | CVPR2022 | DeepLabV2 (ResNet-101) | 60.8 | [code](https://github.com/lslrh/CPSL) |
+| 2022 | DAFormer | CVPR2022 | MiT-B5 | 68.3 | [code](https://github.com/lhoyer/DAFormer) |
+| 2022 | HRDA | ECCV2022 | MiT-B5 | 73.8 | [code](https://github.com/lhoyer/HRDA) |
+| 2023 | PiPa (on HRDA) | ACM MM2023 | MiT-B5 | 75.6 | [code](https://github.com/chen742/PiPa) |
+| 2023 | MIC (on HRDA) | CVPR2023 | MiT-B5 | 75.9 | [code](https://github.com/lhoyer/MIC) |
+| 2024 | CoPT (on MIC) | ECCV2024 | MiT-B5 | 76.1 | [code](https://github.com/cfmata/CoPT) |
+| 2025 | BLDA (on MIC) | ICML2025 | MiT-B5 | 77.1 | [code](https://github.com/Woof6/BLDA) |
+| - | Supervised on Cityscapes train labels | - | MiT-B5 | 77.6 | - |
+
+### SYNTHIA → Cityscapes (16 classes)
+
+| Year | Method | Venue | Backbone | mIoU | Code |
+| :-- | :-- | :-- | :-- | --: | :-- |
+| 2020 | MRNet | IJCAI2020 | DeepLabV2 (ResNet-101) | 46.5 | [code](https://github.com/layumi/Seg-Uncertainty) |
+| 2021 | MRNet + Rectifying | IJCV2021 | DeepLabV2 (ResNet-101) | 47.9 | [code](https://github.com/layumi/Seg-Uncertainty) |
+| 2021 | DACS | CVPR2021 | DeepLabV2 (ResNet-101) | 48.3 | [code](https://github.com/vikolss/DACS) |
+| 2021 | ProDA | CVPR2021 | DeepLabV2 (ResNet-101) | 55.5 | [code](https://github.com/microsoft/ProDA) |
+| 2022 | AdaBoost | TIP2022 | DeepLabV2 (ResNet-101) | 50.4 | [code](https://github.com/layumi/AdaBoost_Seg) |
+| 2022 | ProCA | ECCV2022 | DeepLabV2 (ResNet-101) | 53.0 | [code](https://github.com/jiangzhengkai/ProCA) |
+| 2022 | DecoupleNet | ECCV2022 | DeepLabV2 (ResNet-101) | 57.0 | [code](https://github.com/dvlab-research/DecoupleNet) |
+| 2022 | CPSL | CVPR2022 | DeepLabV2 (ResNet-101) | 57.9 | [code](https://github.com/lslrh/CPSL) |
+| 2022 | DAFormer | CVPR2022 | MiT-B5 | 60.9 | [code](https://github.com/lhoyer/DAFormer) |
+| 2022 | HRDA | ECCV2022 | MiT-B5 | 65.8 | [code](https://github.com/lhoyer/HRDA) |
+| 2023 | MIC (on HRDA) | CVPR2023 | MiT-B5 | 67.3 | [code](https://github.com/lhoyer/MIC) |
+| 2024 | CoPT (on MIC) | ECCV2024 | MiT-B5 | 67.4 | [code](https://github.com/cfmata/CoPT) |
+| 2025 | BLDA (on MIC) | ICML2025 | MiT-B5 | 69.1 | [code](https://github.com/Woof6/BLDA) |
+
+**Notes**
+- The two tables are **not comparable with each other**. GTA5 → Cityscapes is evaluated over 19 classes while SYNTHIA → Cityscapes is evaluated over the 16 shared classes. For SYNTHIA the mIoU must be averaged over 16 classes; averaging over 19 under-reports the score by about 4 points.
+- Both tables are a timeline rather than a strict ranking, because the protocol changes over time (backbone, crop size, single-scale or sliding-window inference). The backbone is the dominant factor: HRDA reaches 63.0 with DeepLabV2 and 73.8 with MiT-B5.
+- Values come from the original papers or from the comparison tables of MIC (CVPR2023), DiDA (NeurIPS2025) and BLDA (ICML2025). The same method can differ by about 1 mIoU between reports (MIC is 75.9 in its own paper and 74.61 in CoPT), so a gap below about 1.5 mIoU should not be read as progress.
+- GTA5 → Cityscapes is close to saturated: the best target-only result (77.1) is within 0.5 mIoU of supervised training on Cityscapes (77.6). Since 2024, most papers use GTA5 as the labelled source domain but target ACDC, Dark Zurich, BDD100K or Mapillary instead.
+
+## Papers
+
 **Arxiv**
 - Cross-Region Domain Adaptation for Class-level Alignment [[14 Sep 2021]](https://arxiv.org/pdf/2109.06422.pdf)
 - Contrastive Learning and Self-Training for Unsupervised Domain Adaptation in Semantic Segmentation [[5 May 2021]](https://arxiv.org/abs/2105.02001)
@@ -109,58 +163,6 @@ segmentation [[CVPR2018]](http://openaccess.thecvf.com/content_cvpr_2018/papers/
 - Learning From Synthetic Data: Addressing Domain Shift for Semantic Segmentation [[CVPR2018]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sankaranarayanan_Learning_From_Synthetic_CVPR_2018_paper.pdf)
 - Curriculum Domain Adaptation for Semantic Segmentation of Urban Scenes [[ICCV2017]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhang_Curriculum_Domain_Adaptation_ICCV_2017_paper.pdf) [[Journal Version]](https://arxiv.org/abs/1812.09953v3)
 - No more discrimina- tion: Cross city adaptation of road scene segmenters [[ICCV2017]](http://openaccess.thecvf.com/content_ICCV_2017/supplemental/Chen_No_More_Discrimination_ICCV_2017_supplemental.pdf)
-
-### Benchmark results
-
-Numbers are mIoU on the Cityscapes validation set, each method at its best reported configuration. They are read from the comparison tables of the original papers. Where a method is quoted by several papers the value may differ by about 1 mIoU depending on the evaluation protocol, see the notes below.
-
-**GTA5 → Cityscapes (19 classes)**
-
-| Year | Method | Venue | Backbone | mIoU | Code |
-| :-- | :-- | :-- | :-- | --: | :-- |
-| 2018 | AdaptSegNet | CVPR2018 | DeepLabV2 (ResNet-101) | 42.4 | [code](https://github.com/wasidennis/AdaptSegNet) |
-| 2019 | ADVENT | CVPR2019 | DeepLabV2 (ResNet-101) | 45.5 | [code](https://github.com/valeoai/ADVENT) |
-| 2019 | CBST | ICCV2019 | DeepLabV2 (ResNet-101) | 45.9 | [code](https://github.com/yzou2/CBST) |
-| 2019 | BDL | CVPR2019 | DeepLabV2 (ResNet-101) | 48.5 | [code](https://github.com/liyunsheng13/BDL) |
-| 2020 | MRNet | IJCAI2020 | DeepLabV2 (ResNet-101) | 48.3 | [code](https://github.com/layumi/Seg-Uncertainty) |
-| 2021 | MRNet + Rectifying | IJCV2021 | DeepLabV2 (ResNet-101) | 50.3 | [code](https://github.com/layumi/Seg-Uncertainty) |
-| 2021 | DACS | CVPR2021 | DeepLabV2 (ResNet-101) | 52.1 | [code](https://github.com/vikolss/DACS) |
-| 2021 | ProDA | CVPR2021 | DeepLabV2 (ResNet-101) | 57.5 | [code](https://github.com/microsoft/ProDA) |
-| 2022 | AdaBoost | TIP2022 | DeepLabV2 (ResNet-101) | 50.9 | [code](https://github.com/layumi/AdaBoost_Seg) |
-| 2022 | ProCA | ECCV2022 | DeepLabV2 (ResNet-101) | 56.3 | [code](https://github.com/jiangzhengkai/ProCA) |
-| 2022 | DecoupleNet | ECCV2022 | DeepLabV2 (ResNet-101) | 59.1 | [code](https://github.com/dvlab-research/DecoupleNet) |
-| 2022 | CPSL | CVPR2022 | DeepLabV2 (ResNet-101) | 60.8 | [code](https://github.com/lslrh/CPSL) |
-| 2022 | DAFormer | CVPR2022 | MiT-B5 | 68.3 | [code](https://github.com/lhoyer/DAFormer) |
-| 2022 | HRDA | ECCV2022 | MiT-B5 | 73.8 | [code](https://github.com/lhoyer/HRDA) |
-| 2023 | PiPa (on HRDA) | ACM MM2023 | MiT-B5 | 75.6 | [code](https://github.com/chen742/PiPa) |
-| 2023 | MIC (on HRDA) | CVPR2023 | MiT-B5 | 75.9 | [code](https://github.com/lhoyer/MIC) |
-| 2024 | CoPT (on MIC) | ECCV2024 | MiT-B5 | 76.1 | [code](https://github.com/cfmata/CoPT) |
-| 2025 | BLDA (on MIC) | ICML2025 | MiT-B5 | 77.1 | [code](https://github.com/Woof6/BLDA) |
-| - | Supervised on Cityscapes train labels | - | MiT-B5 | 77.6 | - |
-
-**SYNTHIA → Cityscapes (16 classes)**
-
-| Year | Method | Venue | Backbone | mIoU | Code |
-| :-- | :-- | :-- | :-- | --: | :-- |
-| 2020 | MRNet | IJCAI2020 | DeepLabV2 (ResNet-101) | 46.5 | [code](https://github.com/layumi/Seg-Uncertainty) |
-| 2021 | MRNet + Rectifying | IJCV2021 | DeepLabV2 (ResNet-101) | 47.9 | [code](https://github.com/layumi/Seg-Uncertainty) |
-| 2021 | DACS | CVPR2021 | DeepLabV2 (ResNet-101) | 48.3 | [code](https://github.com/vikolss/DACS) |
-| 2021 | ProDA | CVPR2021 | DeepLabV2 (ResNet-101) | 55.5 | [code](https://github.com/microsoft/ProDA) |
-| 2022 | AdaBoost | TIP2022 | DeepLabV2 (ResNet-101) | 50.4 | [code](https://github.com/layumi/AdaBoost_Seg) |
-| 2022 | ProCA | ECCV2022 | DeepLabV2 (ResNet-101) | 53.0 | [code](https://github.com/jiangzhengkai/ProCA) |
-| 2022 | DecoupleNet | ECCV2022 | DeepLabV2 (ResNet-101) | 57.0 | [code](https://github.com/dvlab-research/DecoupleNet) |
-| 2022 | CPSL | CVPR2022 | DeepLabV2 (ResNet-101) | 57.9 | [code](https://github.com/lslrh/CPSL) |
-| 2022 | DAFormer | CVPR2022 | MiT-B5 | 60.9 | [code](https://github.com/lhoyer/DAFormer) |
-| 2022 | HRDA | ECCV2022 | MiT-B5 | 65.8 | [code](https://github.com/lhoyer/HRDA) |
-| 2023 | MIC (on HRDA) | CVPR2023 | MiT-B5 | 67.3 | [code](https://github.com/lhoyer/MIC) |
-| 2024 | CoPT (on MIC) | ECCV2024 | MiT-B5 | 67.4 | [code](https://github.com/cfmata/CoPT) |
-| 2025 | BLDA (on MIC) | ICML2025 | MiT-B5 | 69.1 | [code](https://github.com/Woof6/BLDA) |
-
-**Notes**
-- The two tables are **not comparable with each other**. GTA5 → Cityscapes is evaluated over 19 classes while SYNTHIA → Cityscapes is evaluated over the 16 shared classes. For SYNTHIA the mIoU must be averaged over 16 classes; averaging over 19 under-reports the score by about 4 points.
-- Both tables are a timeline rather than a strict ranking, because the protocol changes over time (backbone, crop size, single-scale or sliding-window inference). The backbone is the dominant factor: HRDA reaches 63.0 with DeepLabV2 and 73.8 with MiT-B5.
-- Values come from the original papers or from the comparison tables of MIC (CVPR2023), DiDA (NeurIPS2025) and BLDA (ICML2025). The same method can differ by about 1 mIoU between reports (MIC is 75.9 in its own paper and 74.61 in CoPT), so a gap below about 1.5 mIoU should not be read as progress.
-- GTA5 → Cityscapes is close to saturated: the best target-only result (77.1) is within 0.5 mIoU of supervised training on Cityscapes (77.6). Since 2024, most papers use GTA5 as the labelled source domain but target ACDC, Dark Zurich, BDD100K or Mapillary instead.
 
 ### Reference 
 - https://github.com/zhaoxin94/awesome-domain-adaptation#semantic-segmentation
