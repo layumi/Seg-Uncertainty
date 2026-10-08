@@ -30,6 +30,7 @@ Results on the two standard synthetic-to-real benchmarks for this task. All numb
 | 2023 | PiPa (on HRDA) | ACM MM2023 | MiT-B5 | 75.6 | [code](https://github.com/chen742/PiPa) |
 | 2023 | MIC (on HRDA) | CVPR2023 | MiT-B5 | 75.9 | [code](https://github.com/lhoyer/MIC) |
 | 2024 | CoPT (on MIC) | ECCV2024 | MiT-B5 | 76.1 | [code](https://github.com/cfmata/CoPT) |
+| 2024 | DCF † (on MIC) | ACM MM2024 | MiT-B5 | 77.7 | [code](https://github.com/chen742/DCF) |
 | 2025 | BLDA (on MIC) | ICML2025 | MiT-B5 | 77.1 | [code](https://github.com/Woof6/BLDA) |
 | - | Supervised on Cityscapes train labels | - | MiT-B5 | 77.6 | - |
 
@@ -48,14 +49,17 @@ Results on the two standard synthetic-to-real benchmarks for this task. All numb
 | 2022 | DAFormer | CVPR2022 | MiT-B5 | 60.9 | [code](https://github.com/lhoyer/DAFormer) |
 | 2022 | HRDA | ECCV2022 | MiT-B5 | 65.8 | [code](https://github.com/lhoyer/HRDA) |
 | 2023 | MIC (on HRDA) | CVPR2023 | MiT-B5 | 67.3 | [code](https://github.com/lhoyer/MIC) |
+| 2023 | PiPa (on HRDA) | ACM MM2023 | MiT-B5 | 68.2 | [code](https://github.com/chen742/PiPa) |
 | 2024 | CoPT (on MIC) | ECCV2024 | MiT-B5 | 67.4 | [code](https://github.com/cfmata/CoPT) |
+| 2024 | DCF † (on MIC) | ACM MM2024 | MiT-B5 | 69.3 | [code](https://github.com/chen742/DCF) |
 | 2025 | BLDA (on MIC) | ICML2025 | MiT-B5 | 69.1 | [code](https://github.com/Woof6/BLDA) |
 
 **Notes**
+- "†" marks methods that additionally train with depth data. Their scores are not directly comparable with the RGB-only methods.
 - The two tables are **not comparable with each other**. GTA5 → Cityscapes is evaluated over 19 classes while SYNTHIA → Cityscapes is evaluated over the 16 shared classes. For SYNTHIA the mIoU must be averaged over 16 classes; averaging over 19 under-reports the score by about 4 points.
 - Both tables are a timeline rather than a strict ranking, because the protocol changes over time (backbone, crop size, single-scale or sliding-window inference). The backbone is the dominant factor: HRDA reaches 63.0 with DeepLabV2 and 73.8 with MiT-B5.
 - Values come from the original papers or from the comparison tables of MIC (CVPR2023), DiDA (NeurIPS2025) and BLDA (ICML2025). The same method can differ by about 1 mIoU between reports (MIC is 75.9 in its own paper and 74.61 in CoPT), so a gap below about 1.5 mIoU should not be read as progress.
-- GTA5 → Cityscapes is close to saturated: the best target-only result (77.1) is within 0.5 mIoU of supervised training on Cityscapes (77.6). Since 2024, most papers use GTA5 as the labelled source domain but target ACDC, Dark Zurich, BDD100K or Mapillary instead.
+- GTA5 → Cityscapes is close to saturated: the best RGB-only result (77.1) is within 0.5 mIoU of supervised training on Cityscapes (77.6). Since 2024, most papers use GTA5 as the labelled source domain but target ACDC, Dark Zurich, BDD100K or Mapillary instead.
 
 ## Papers
 
@@ -104,6 +108,7 @@ Results on the two standard synthetic-to-real benchmarks for this task. All numb
 - DiGA: Distil to Generalize and then Adapt for Domain Adaptive Semantic Segmentation [[CVPR2023]](https://arxiv.org/abs/2304.02222) [[Code]](https://github.com/fy-vision/DiGA)
 - HGFormer: Hierarchical Grouping Transformer for Domain Generalized Semantic Segmentation [[CVPR2023]](https://arxiv.org/abs/2305.13031) [[Code]](https://github.com/dingjiansw101/HGFormer)
 - MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation [[CVPR2023]](https://arxiv.org/abs/2212.01322) [[Code]](https://github.com/lhoyer/MIC)
+- Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation (DCF) [[ACM MM2024]](https://arxiv.org/abs/2311.12682) [[Code]](https://github.com/chen742/DCF)
 - PiPa: Pixel- and Patch-wise Self-supervised Learning for Domain Adaptative Semantic Segmentation [[ACM MM2023]](https://arxiv.org/abs/2211.07609) [[Code]](https://github.com/chen742/PiPa)
 - DAformer: Improving Network Architectures and Training Strategies for Domain-Adaptive Semantic Segmentation [[CVPR2022]](https://arxiv.org/abs/2111.14887) [[Code]](https://github.com/lhoyer/DAFormer)
 - Class-balanced pixel-level self-labeling for domain adaptive semantic segmentation [[CVPR2022]](https://arxiv.org/abs/2203.09744) [[Code]](https://github.com/lslrh/CPSL)
